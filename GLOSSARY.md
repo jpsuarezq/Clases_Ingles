@@ -92,6 +92,24 @@ Listening + Reading completos, con tiempo, puntuados. Solo hay material gratis p
 el plan, y se reparten en dos días consecutivos porque no caben en 60 minutos de una.
 _Avoid_: examen de prueba, simulacro completo
 
+## Pronunciación
+
+**Bloque fonético**:
+Un tramo de días dedicado a un solo contraste, aprendido y cerrado antes de pasar al siguiente.
+Los fonemas **no se intercalan**: la evidencia directa favorece el bloqueo para pronunciación
+(Carpenter & Mueller, 2013, cuatro experimentos), a diferencia de lo que pasa con gramática.
+_Avoid_: unidad fonética, lección de sonido
+
+**Secuencia fonética**:
+El orden interno de un bloque: **explicación articulatoria → percepción con feedback → producción**.
+Trabajar solo percepción es la peor inversión si el objetivo es producir.
+_Avoid_: rutina, progression
+
+**Drill de phonema**:
+El trabajo de pronunciación de la base fija diaria. Va en todos los días del ejercicio, dentro del
+bloque fonético que toque.
+_Avoid_: práctica de sonido, warm-up de pronunciación
+
 ## Medición
 
 **Banda medida**:
