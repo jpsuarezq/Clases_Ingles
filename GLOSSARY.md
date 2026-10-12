@@ -92,6 +92,31 @@ Listening + Reading completos, con tiempo, puntuados. Solo hay material gratis p
 el plan, y se reparten en dos días consecutivos porque no caben en 60 minutos de una.
 _Avoid_: examen de prueba, simulacro completo
 
+## Medición
+
+**Banda medida**:
+La banda computada de Listening y Reading a partir del número de aciertos y las tablas raw→band
+oficiales. Es la **única** pista que sirve para medir la meta de cierre, porque es lo comparable
+con el EF SET. Nunca se promedia con la autoevaluada.
+_Avoid_: band score, nivel medido
+
+**Banda autoevaluada**:
+La puntuación que uno se da en Writing y Speaking contra los descriptores oficiales de IELTS. Va
+marcada con su fuente para que el agregador no la mezcle con la medida. Sirve para ver **tendencia**,
+no para dar por cumplida la meta.
+_Avoid_: band estimada, nivel percibido
+
+**Punto de calibración**:
+Los mocks sentados del British Council. Verifican si la dificultad de la biblioteca no oficial es
+representativa: si la banda de la biblioteca se desvía mucho de la del BC, se corrige la estimación.
+_Avoid_: control, chequeo, validación
+
+**Lista de autoevaluación**:
+La lista corta derivada de los descriptores oficiales de IELTS para Writing y Speaking. Es una
+**traducción** de los descriptores del examinador, no una rúbrica propia — inventar una daría dos
+estándares y el riesgo de que el propio sea más laxo que el del examen real.
+_Avoid_: rúbrica, checklist, criterios
+
 **Acento de producción**:
 El acento que se practica al producir habla: americano. No es el único que se escucha — el
 listening exige variedad británica, australiana y neozelandesa además del americano.
