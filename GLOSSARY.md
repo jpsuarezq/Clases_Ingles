@@ -92,6 +92,32 @@ Listening + Reading completos, con tiempo, puntuados. Solo hay material gratis p
 el plan, y se reparten en dos días consecutivos porque no caben en 60 minutos de una.
 _Avoid_: examen de prueba, simulacro completo
 
+## Vocabulario
+
+**Deck**:
+Un **solo** deck de Anki con tags, no decks separados por skill. Dos decks son dos sesiones, y la
+frecuencia de práctica pesa más que los minutos. Los phonemas **no van acá**: van en el drill diario
+del ejercicio, que tiene audio y días de producción.
+_Avoid_: mazo, decks por skill, subdeck
+
+**Card de vocabulario**:
+La **frase coloquial completa**, no la palabra suelta. El frente trae la frase con audio UK y US; el
+atras trae la palabra, su equivalente al otro lado del Atlántico, y el phonema del día. Captura
+palabra, contexto de uso y par UK/US de una vez.
+_Avoid_: flashcard, tarjeta, card L1→L2
+
+**Tasa de vocabulario**:
+Seis palabras nuevas por día, sostenidas durante las 90 jornadas. Cierra ~540 palabras contra una
+brecha A2→B2 de 2.000–3.000 familias: el deck cubre alrededor de un quinto, y el resto lo pone la
+exposición incidental de leer y escuchar todos los días.
+_Avoid_: palabras por sesión, cuota diaria
+
+**Fuente de vocabulario**:
+Mixta. Las palabras salen del **material del día** —que ya trae contexto y encuentros— y se
+completan con una **lista de frecuencia** cuando el material no llega a la cuota. Solo el material
+sería temático; solo la lista, sin contexto.
+_Avoid_: word list, fuente única
+
 ## Pronunciación
 
 **Bloque fonético**:
