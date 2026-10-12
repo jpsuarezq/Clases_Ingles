@@ -70,8 +70,27 @@ _Avoid_: diagnóstico, examen
 
 **Banda**:
 El nivel IELTS (0–9). Es una **estimación direccional**, no un resultado: el ancla no produce banda
-oficial y pone "n/a" si el nivel cae en A1/A2.
+oficial y pone "n/a" si el nivel cae en A1/A2. En este plan **solo se puede computar de Listening y
+Reading** — Writing y Speaking no tienen forma gratuita de producirla, así que la banda registrada
+es un **piso** del nivel real, no el nivel.
 _Avoid_: score, puntaje IELTS, nivel
+
+**Rotación**:
+El orden fijo y cíclico de las habilidades del bloque rotante: Listening → Writing → Speaking →
+Reading, y repite. Cuatro habilidades a partes iguales, sin ponderar hacia las que producen banda.
+Un día de mock **toma el día** y la rotación retoma después de donde estaba.
+_Avoid_: schedule, secuencia, plan semanal
+
+**Drill de sección**:
+Extracto oficial de un solo tipo de pregunta (una grabación de Listening, un pasaje de Reading). Es
+el contenido normal del día cuando toca esa habilidad. No produce banda: sin las 40 preguntas
+completas no hay conversión.
+_Avoid_: práctica, mini-test, extracto
+
+**Mock sentado**:
+Listening + Reading completos, con tiempo, puntuados. Solo hay material gratis para **tres** en todo
+el plan, y se reparten en dos días consecutivos porque no caben en 60 minutos de una.
+_Avoid_: examen de prueba, simulacro completo
 
 **Acento de producción**:
 El acento que se practica al producir habla: americano. No es el único que se escucha — el
