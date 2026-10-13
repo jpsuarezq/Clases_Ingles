@@ -1064,3 +1064,538 @@
 
     La regla del día: **escribí completo, decí apretado**. Los dos movimientos a la vez,
     y ninguno en lugar del otro.
+
+15:
+  objetivo: "Decir function words sin abrirlas, sin borrarlas y sin que se note el esfuerzo."
+  items:
+    - tipo: speaking
+      instruccion: "Decí la frase cuatro veces, más rápido cada vez. Grabate la cuarta."
+      stimulus: "The budget of the new project is in the report I gave to the manager."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Siete function words — «the» ×3, «of», «the», «is», «in», «the», «to» — contra
+        seis de contenido. Si decís las siete enteras, la oración dura el doble y suena
+        a lectura. Lo que hay que practicar es pasar por encima de ellas sin cortar.
+    - tipo: speaking
+      instruccion: "Escuchá la frase dicha dos veces. ¿Qué diferencia oís?"
+      stimulus: "I gave the report to the manager."
+      opciones:
+        - "En la plana se oyen los artículos enteros; en la reducida son casi ruido."
+        - "No hay diferencia: las function words suenan igual siempre."
+        - "La plana tiene más palabras de contenido."
+        - "La reducida omite el artículo por completo."
+      correcta: A
+      por_que: >-
+        La reducida no omite nada: conserva el artículo, pero /ðə/ es casi mudo. Esa es
+        la trampa del bloque — **se reduce el sonido, no la palabra**. Borrarla es un
+        error de escritura; no abrirla, un error de habla.
+    - tipo: speaking
+      instruccion: "Formulá una pregunta de trabajo con al menos tres function words. Una línea."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «Could you send me the report of the new project?» — «could», «you», «me», «the»,
+        «of», «the» se aplastan. Quedan cuatro picos: SEND · rePORT · NEW · PROject.
+        Si te salen seis, la pregunta es demasiado larga.
+  coloquial:
+    - {expr: "give it to me", uk: "give it to me", us: "gimme",
+       sentido: "Fundido real: se oye «GIM-mi», no la frase entera"}
+    - {expr: "kind of", uk: "kind of", us: "kinda",
+       sentido: "Otra función que se funde en una sola palabra"}
+  vocabulario:
+    - {palabra: "could", fuente: material, uk: "kjəd", us: "kjəd",
+       frase: "Could you send me the report?",
+       sentido: "Function word: el condicional que suaviza la petición."}
+    - {palabra: "project", fuente: frecuencia, uk: "PRO-jekt", us: "PRO-jekt",
+       frase: "The budget of the new project.",
+       sentido: "Proyecto. Acento en la primera."}
+    - {palabra: "report", fuente: material, uk: "re-PORT", us: "re-PORT",
+       frase: "I gave the report to the manager.",
+       sentido: "Informe. Palabra de contenido: se oye entera."}
+    - {palabra: "manager", fuente: material, uk: "MAN-a-ger", us: "MAN-i-ger",
+       frase: "The manager is in a meeting.",
+       sentido: "Gerente. Acento en la primera."}
+    - {palabra: "send", fuente: frecuencia, uk: "send", us: "send",
+       frase: "Can you send it now?",
+       sentido: "Enviar. Monosilábica."}
+    - {palabra: "give", fuente: frecuencia, uk: "giv", us: "giv",
+       frase: "I gave the report to the manager.",
+       sentido: "Dar. Monosilábica."}
+  cuerpo: |
+    **Producción hablada de function words.** El día donde se consolida lo que el bloque
+    entero venía construyendo.
+
+    La regla, ya completa: **las function words van, se aplastan y no se borran**. Tres
+    movimientos que se confunden fácil y que hoy toca practicar juntos.
+
+    El que las borra escribe «I gave report to manager» — error de escritura. El que las
+    abre enteras suena a locutor de radio de los años cincuenta. **El objetivo es el punto
+    medio: decir /ðə BUDget əv ðə NEW PROject/ sin que se note el esfuerzo.**
+
+    Si algo se te complica, es que estás intentando controlar cada palabra. **No.** Controlá
+    los picos y deja que el resto pase solo. Ese es el truco de todo el bloque.
+
+16:
+  objetivo: "Leer en voz alta un texto donde la mitad de las palabras casi no se oyen."
+  stimulus: "The manager of the new project said that the budget of the report was in the office of the team."
+  items:
+    - tipo: reading
+      instruccion: "Leé el texto y contá: ¿cuántas palabras de contenido hay?"
+      stimulus: "The manager of the new project said that the budget of the report was in the office of the team."
+      opciones:
+        - "Seis: manager, new, project, said, budget, report, office, team — ocho."
+        - "Dos: «manager» y «budget»."
+        - "Todas: cada palabra cuenta igual."
+        - "Ninguna: es una oración vacía."
+      correcta: A
+      por_que: >-
+        Son ocho de contenido contra diez function words. **Más de la mitad de la oración
+        es casi ruido** — y aun así la frase se entiende perfecta, porque las function
+        words no significan nada: marcan la estructura. Ese es el punto del bloque.
+    - tipo: reading
+      instruccion: "Subrayá las ocho palabras de contenido y leé marcando solo esos picos."
+      stimulus: "The manager of the new project said that the budget of the report was in the office of the team."
+      opciones: []
+      correcta: null
+      por_que: >-
+        MAN-a-ger · NEW · PRO-ject · SAID · BUD-get · rePORT · OF-fice · TEAM. Ocho
+        picos es demasiado para una sola oración — en el día 10 vimos que el máximo son
+        cuatro. Si la decís así, sepárala: el problema no es la pronunciación, es la
+        longitud.
+    - tipo: reading
+      instruccion: "Reescribí la oración en dos más cortas y leelas en voz alta."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «The new project manager said the budget was ready. The report was in the team's
+        office.» Cuatro picos y tres. Al escribir corto, el ritmo se arregla solo: es la
+        escritura como herramienta de pronunciación.
+  coloquial:
+    - {expr: "run by me", uk: "run past me", us: "run by me",
+       sentido: "Mostrármelo — fundido y coloquial"}
+    - {expr: "as per the report", uk: "as per", us: "per the",
+       sentido: "Según el informe. UK y US lo dicen distinto."}
+  vocabulario:
+    - {palabra: "said", fuente: material, uk: "sed", us: "sed",
+       frase: "The manager said the budget was ready.",
+       sentido: "Dijo. Se escribe «said», se dice /sed/."}
+    - {palabra: "office", fuente: material, uk: "OF-fice", us: "OF-fice",
+       frase: "The report was in the office.",
+       sentido: "Oficina. Acento en la primera."}
+    - {palabra: "team", fuente: frecuencia, uk: "teem", us: "teem",
+       frase: "The report was in the team's office.",
+       sentido: "Equipo. Monosilábica."}
+    - {palabra: "ready", fuente: frecuencia, uk: "RED-y", us: "RED-y",
+       frase: "The budget is ready.",
+       sentido: "Listo. Acento en la primera."}
+    - {palabra: "that", fuente: frecuencia, uk: "ðət", us: "ðət",
+       frase: "The manager said that the budget was ready.",
+       sentido: "Function word que introduce la subordinada. Se aplasta."}
+    - {palabra: "was", fuente: frecuencia, uk: "wəz", us: "wəz",
+       frase: "The report was in the office.",
+       sentido: "Era/estaba. La vocal es schwa: casi se oye solo la Z."}
+  cuerpo: |
+    **Producción escrita de function words.** Y el día donde el texto revela algo incómodo:
+    **la mitad de lo que escribís casi no se oye**.
+
+    No es un defecto del inglés — es lo que lo hace rápido. Ocho palabras de contenido y
+    diez function words, y la oración se procesa sin esfuerzo. **Las function words no
+    compiten: ordenan.**
+
+    Para escribir eso se traduce en dos movimientos que van juntos:
+
+    **Escribí completo** — no borres artículos ni preposiciones, eso es error.
+    **Leé apretado** — si decís cada una entera, el texto suena a manual.
+
+    Y una regla práctica que vale para todo el plan: **si una oración tiene más de cuatro
+    picos, es demasiado larga**. La oración de hoy tiene ocho. No la leas: partila. Es la
+    escritura trabajando para la pronunciación.
+
+17:
+  objetivo: "Escuchar un diálogo real y captar el contenido SIN perseguir cada function word."
+  stimulus: "Dialogue 2-1 · Ordering a Meal (Everyday Conversations, US Dept. of State)"
+  items:
+    - tipo: listening
+      instruccion: "En un pedido de comida, ¿qué function word es la que más se aplasta y la que más ayuda?"
+      stimulus: "I'd like the soup, please."
+      opciones:
+        - "«the» se aplasta casi del todo; «please» se oye entera porque cierra la cortesía."
+        - "Ninguna se aplasta: es un pedido formal."
+        - "«I'd» se borra y «please» también."
+        - "Solo «the» ayuda; «please» sobra."
+      correcta: A
+      por_que: >-
+        «the» es /ðə/ y pasa casi desaparecida, pero va escrita. «Please» no es function
+        word — es palabra de contenido cortés, y por eso se oye completa. Si la borra,
+        el pedido queda seco aunque todo lo demás esté perfecto.
+    - tipo: listening
+      instruccion: "¿Cuántas function words hay en la frase y cuántas se oyen enteras?"
+      stimulus: "I'd like the soup, please."
+      opciones:
+        - "Una function word — «the» — y se aplasta."
+        - "Tres: «I'd», «the», «please»."
+        - "Ninguna: todas son de contenido."
+        - "Dos y ninguna se aplasta."
+      correcta: A
+      por_que: >-
+        «I'd» es una contracción, que sí se oye (/aɪd/). «The» es la única function word
+        y se reduce. «Like», «soup» y «please» son contenido. **Tres picos en cinco
+        palabras** — esa es la proporción natural del inglés hablado.
+    - tipo: listening
+      instruccion: "Pensá en un pedido que harías mañana. Escribilo y decilo en voz alta."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «I'd like the report by Friday, please.» — la misma estructura, otro contexto.
+        Lo que importa es que se diga rápido: «I'd LIKE the rePORT by FRIday, PLEASE.»
+  coloquial:
+    - {expr: "I'll have…", uk: "I'll have", us: "I'll have",
+       sentido: "Voy a llevar — la forma normal de pedir"}
+    - {expr: "the check, please", uk: "the bill, please", us: "the check, please",
+       sentido: "La cuenta. UK y US usan palabras distintas."}
+  vocabulario:
+    - {palabra: "like", fuente: frecuencia, uk: "like", us: "like",
+       frase: "I'd like the soup, please.",
+       sentido: "Gustar / querer. «I'd like» es la forma cortés de pedir."}
+    - {palabra: "soup", fuente: frecuencia, uk: "soop", us: "soop",
+       frase: "I'd like the soup, please.",
+       sentido: "Sopa. Monosilábica."}
+    - {palabra: "please", fuente: frecuencia, uk: "pleez", us: "pleez",
+       frase: "The check, please.",
+       sentido: "Por favor. Es de contenido: se oye completa."}
+    - {palabra: "bill", fuente: frecuencia, uk: "bil", us: "check",
+       frase: "Could I have the bill, please?",
+       sentido: "La cuenta. UK dice «bill», US dice «check»."}
+    - {palabra: "order", fuente: frecuencia, uk: "OR-der", us: "OR-der",
+       frase: "Are you ready to order?",
+       sentido: "Pedir / el pedido. Acento en la primera."}
+    - {palabra: "table", fuente: frecuencia, uk: "TAY-bəl", us: "TAY-bəl",
+       frase: "A table for two, please.",
+       sentido: "Mesa. Acento en la primera; la segunda es schwa."}
+  cuerpo: |
+    **Producción hablada de function words, con material real.** El diálogo del día viene
+    del State Dept, y la escena es la más cotidiana que existe: pedir algo.
+
+    Lo que hay que notar no es el vocabulario — es **cuántas function words pasan por
+    debajo del contenido sin que las sigas**. «I'd like the soup, please» tiene tres picos
+    y dos palabras que se aplastan. Si perseguís cada una, no escuchas nada.
+
+    **Es la lección que el bloque entero venía preparando:** entender no es oír todas las
+    palabras. Es captar los picos y dejar que el resto se llene solo.
+
+    Y algo que se aplica desde hoy en adelante: **cuando algo se te escape, no lo repitas
+    entero**. Buscá cuál function word se fue — casi siempre es «the», «of» o «to» — y
+    volvé solo a esa.
+
+18:
+  objetivo: "Cerrar el bloque escribiendo frases cortas donde cada function word esté donde va."
+  items:
+    - tipo: writing
+      instruccion: "¿Cuál de estas dos está bien escrita?"
+      stimulus: "A: I gave report to manager. / B: I gave the report to the manager."
+      opciones:
+        - "B: los artículos y la preposición van escritos aunque se aplasten al hablar."
+        - "A: en inglés hablado se omiten y la escritura lo refleja."
+        - "Las dos están igual de bien."
+        - "A: es la forma informal correcta."
+      correcta: B
+      por_que: >-
+        **El error más caro del bloque.** «I gave report to manager» no es informal: es
+        inglés mal escrito. Las function words se reducen al hablar, pero en el papel van
+        completas. Confundir los dos es la manera más rápida de sonar incompetente por
+        escrito.
+    - tipo: writing
+      instruccion: "Reescribí este párrafo: está bien escrito pero es demasiado largo para decirlo."
+      stimulus: "The manager of the new project said that she had given the report to the team in the office."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «The project manager gave the report to the team.» Ocho picos reducidos a cinco.
+        No se quitó información: se quitó redundancia. El inglés de trabajo premia eso —
+        es la misma limpieza que aplicaba el día 10.
+    - tipo: writing
+      instruccion: "Escribí tres oraciones de trabajo y contá sus picos. Ninguna debe pasar de cuatro."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Ejemplo: «I'll send the report by Friday.» — cuatro picos: SEND · rePORT · FRIday
+        y «I'll» como contracción fuerte. Si una oración te sale en seis, partila en dos.
+        Es la regla que ordena toda la escritura del plan.
+  writing:
+    tarea: task_2
+    consigna: "Some people think that using simple language at work is more effective than using formal language. Others disagree. Discuss both views and give your own opinion."
+    min_palabras: 250
+  coloquial:
+    - {expr: "in short", uk: "in short", us: "in short",
+       sentido: "En resumen — cierra un punto"}
+    - {expr: "the bottom line", uk: "the bottom line", us: "the bottom line",
+       sentido: "Lo que importa es — el cierre ejecutivo"}
+  vocabulario:
+    - {palabra: "effective", fuente: frecuencia, uk: "ə-FEK-tiv", us: "ə-FEK-tiv",
+       frase: "Simple language is more effective.",
+       sentido: "Efectivo. Acento en la segunda; la primera es schwa."}
+    - {palabra: "formal", fuente: frecuencia, uk: "FOR-məl", us: "FOR-məl",
+       frase: "Formal language takes longer.",
+       sentido: "Formal. Acento en la primera."}
+    - {palabra: "simple", fuente: frecuencia, uk: "SIM-pəl", us: "SIM-pəl",
+       frase: "Simple language is easier to read.",
+       sentido: "Simple. La segunda sílaba es schwa."}
+    - {palabra: "language", fuente: frecuencia, uk: "LANG-gwij", us: "LANG-gwij",
+       frase: "The language of the report.",
+       sentido: "Idioma. Acento en la primera."}
+    - {palabra: "bottom", fuente: material, uk: "BOT-əm", us: "BOT-əm",
+       frase: "The bottom line is this.",
+       sentido: "El fondo. La segunda sílaba es schwa."}
+    - {palabra: "give", fuente: material, uk: "giv", us: "giv",
+       frase: "I gave the report to the manager.",
+       sentido: "Dar. Se repite a propósito: es de las más reducidas al hablar."}
+  cuerpo: |
+    **Cierre del bloque.** Si algo hay que quedarse de estas seis jornadas, es la frase
+    que acaba de aparecer en el ejercicio: **«I gave report to manager» no es informal,
+    es incorrecto.**
+
+    Es la confusión más cara del bloque, y es la única que se paga en el papel — las
+    demás se pagan en el speaking. Se reduce el sonido, no la palabra.
+
+    La regla completa del bloque, ya cerrada: **escribí completo, decí apretado**. Los dos
+    movimientos siempre, ninguno en lugar del otro.
+
+19:
+  objetivo: "Entender que el inglés se dice en bloques, no en palabras sueltas."
+  stimulus: "We need to / send the report / by Friday."
+  items:
+    - tipo: speaking
+      instruccion: "Decí la frase agrupando. ¿Cuántos bloques oyes?"
+      stimulus: "We need to send the report by Friday."
+      opciones:
+        - "Tres: «We need to» · «send the report» · «by Friday»."
+        - "Ocho: una por palabra."
+        - "Uno: la frase entera sin cortes."
+        - "Dos: sujeto y predicado."
+      correcta: A
+      por_que: >-
+        **Chunking**: el inglés se dice en bloques de sentido, no en palabras sueltas.
+        Dentro de cada bloque las palabras se funden; entre bloques hay una pausa mínima.
+        Si decís ocho palabras sueltas, no hay ritmo — hay una hilera.
+    - tipo: speaking
+      instruccion: "Decí la frase sin pausas entre bloques y con ellas. ¿Cuál suena mejor?"
+      stimulus: "We need to send the report by Friday."
+      opciones:
+        - "Con pausas mínimas entre bloques: el ritmo aparece solo."
+        - "Sin ninguna pausa: se dice de corrido."
+        - "Con pausa entre cada palabra: así se entiende mejor."
+        - "Da igual: es cuestión de velocidad."
+      correcta: A
+      por_que: >-
+        No es pausa larga: es un **rebote**. «We need to» se funde, rebota en «send»,
+        «the report» se aprieta, rebota en «by Friday». Es una cadena de picos, no una
+        hilera de palabras con silencios.
+    - tipo: speaking
+      instruccion: "Tomá una oración de tu trabajo y partila en bloques. Decila en voz alta."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «I'll send the report / to the manager / by Friday.» Tres bloques, tres rebotes.
+        Si no encontrás dónde cortar, es que la oración es demasiado larga — vuelve a
+        la regla del día 18: máximo cuatro picos por oración.
+  coloquial:
+    - {expr: "by the way", uk: "by the way", us: "by the way",
+       sentido: "Dicho de paso — se dice como un solo bloque"}
+    - {expr: "as soon as", uk: "as soon as", us: "as soon as",
+       sentido: "Tan pronto como — tres palabras que se funden en una"}
+  vocabulario:
+    - {palabra: "need", fuente: frecuencia, uk: "need", us: "need",
+       frase: "We need to send the report.",
+       sentido: "Necesitar. Monosilábica."}
+    - {palabra: "soon", fuente: frecuencia, uk: "soon", us: "soon",
+       frase: "I'll do it as soon as I can.",
+       sentido: "Pronto. Monosilábica."}
+    - {palabra: "friday", fuente: frecuencia, uk: "FRY-day", us: "FRY-day",
+       frase: "By Friday, please.",
+       sentido: "Viernes. Acento en la primera; la segunda es schwa."}
+    - {palabra: "way", fuente: frecuencia, uk: "way", us: "way",
+       frase: "By the way, the report is ready.",
+       sentido: "Camino, manera. «By the way» se dice como un solo bloque."}
+    - {palabra: "send", fuente: material, uk: "send", us: "send",
+       frase: "We need to send the report.",
+       sentido: "Enviar. Se repite: es el verbo central de todo el bloque."}
+    - {palabra: "report", fuente: material, uk: "re-PORT", us: "re-PORT",
+       frase: "Send the report by Friday.",
+       sentido: "Informe. Palabra de contenido, se oye entera."}
+  cuerpo: |
+    Empieza el tercer tramo del bloque 1: **ritmo, chunking y linking** — cómo se unen
+    las palabras cuando se dicen de verdad.
+
+    La idea que ordena todo lo que viene: **el inglés no se dice en palabras, se dice en
+    bloques de sentido**. «We need to» sale de una sola respiración, rebota en «send»,
+    «the report» se aprieta, y aterriza en «by Friday». Cuatro cosas, no ocho palabras.
+
+    De ahí el linking: dentro de un bloque **las palabras se pegan**. «Need to» se funde
+    en «neeta». «Send the» se encadena sin corte. No es pereza — es la única manera de
+    que la frase entre en el ritmo.
+
+    Si esto te suena a licencia: no lo es. **Son los mismos mecanismos que ya venís usando**
+    sin darte cuenta — schwa, function words reducidas. Lo nuevo es que ahora tienen forma.
+
+20:
+  objetivo: "Leer un texto y encontrar dónde se pegan las palabras entre sí."
+  stimulus: "We need to send it as soon as possible, because the manager wants an update by Friday."
+  items:
+    - tipo: reading
+      instruccion: "¿Cuántos bloques de sentido tiene esta oración?"
+      stimulus: "We need to send it as soon as possible, because the manager wants an update by Friday."
+      opciones:
+        - "Cuatro: «We need to send it» · «as soon as possible» · «because the manager wants an update» · «by Friday»."
+        - "Trece: uno por palabra."
+        - "Uno: se dice entera de corrido."
+        - "Dos: antes y después de la coma."
+      correcta: A
+      por_que: >-
+        Cuatro bloques, y cada uno cabe en una respiración. «As soon as possible» es
+        famoso justamente porque se dice de una sola vez: /əs-sun-ə-z POSS-ə-bəl/. Es el
+        ejemplo más limpio de chunking del inglés cotidiano.
+    - tipo: reading
+      instruccion: "¿Qué tres grupos de palabras se pegan al decirlas?"
+      stimulus: "We need to send it as soon as possible."
+      opciones:
+        - "«need to» → /ni:tə/, «send it» → /sen-dɪt/, «as soon as» → /əs-sun-əz/."
+        - "Ninguna: se leen separadas."
+        - "Solo «as soon as»."
+        - "«We need» y «to send»."
+      correcta: A
+      por_que: >-
+        Son los tres linkings del día. **«Need to»** funde la D con la T. **«Send it»**
+        encadena la D con la vocal breve. **«As soon as»** se aprieta hasta casi ser una
+        palabra. Si leés cada una entera, la oración se alarga un tercio.
+    - tipo: reading
+      instruccion: "Leé la oración en voz alta marcando los cuatro rebotes. Grabate."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Los rebotes caen en «SEND», «AS soon AS POSSible», «MANager», «FRIday». Si los
+        cuatro se oyen claros, la oración fluye aunque cada palabra esté bien. Es la
+        prueba de que el chunking quedó.
+  coloquial:
+    - {expr: "as soon as possible", uk: "ASAP", us: "ASAP",
+       sentido: "Lo antes posible — se dice fundido o por las siglas"}
+    - {expr: "get it done", uk: "get it done", us: "get it done",
+       sentido: "Terminarlo — «get it» se encadena en un solo sonido"}
+  vocabulario:
+    - {palabra: "possible", fuente: frecuencia, uk: "POSS-ə-bəl", us: "POSS-ə-bəl",
+       frase: "As soon as possible.",
+       sentido: "Posible. Dos schwas: las sílabas 2 y 3 se aplastan."}
+    - {palabra: "update", fuente: frecuencia, uk: "UP-date", us: "UP-date",
+       frase: "The manager wants an update.",
+       sentido: "Actualización. Acento en la primera como sustantivo."}
+    - {palabra: "wants", fuente: frecuencia, uk: "wonts", us: "wonts",
+       frase: "The manager wants an update.",
+       sentido: "Quiere. Monosilábica."}
+    - {palabra: "soon", fuente: material, uk: "soon", us: "soon",
+       frase: "As soon as possible.",
+       sentido: "Pronto. Parte del bloque más famoso del inglés."}
+    - {palabra: "because", fuente: frecuencia, uk: "BEE-cuz", us: "BEE-cuz",
+       frase: "Because the manager wants an update.",
+       sentido: "Porque. Se contrae: nunca se dice completo."}
+    - {palabra: "done", fuente: frecuencia, uk: "dun", us: "dun",
+       frase: "Let's get it done.",
+       sentido: "Hecho. Monosilábica."}
+  cuerpo: |
+    **Percepción de ritmo en lectura.** Hoy se trata de ver lo que el papel esconde: **las
+    palabras que se pegan están escritas separadas**.
+
+    Tres linkings del día, y los tres son la misma operación:
+
+    **«need to»** → la D de «need» se queda pegada a la T de «to»: /ni:tə/, casi una palabra.
+    **«send it»** → la D encadena la vocal siguiente sin cortar: /sen-dɪt/.
+    **«as soon as»** → se aprieta tanto que funciona como una sola unidad de sentido.
+
+    Si leés cada una entera, la oración se alarga un tercio y suena a dictado. No se entiende
+    peor — **se procesa como alguien que lee inglés, no que lo habla**.
+
+    El truco de hoy es subrayar los puntos de pegado en el papel. Es un ejercicio de lectura,
+    pero lo que entrena es el oído: a partir de acá, cualquier texto sirve para practicar.
+
+21:
+  objetivo: "Escuchar el ritmo real y no confundir dos palabras pegadas con una sola."
+  stimulus: "I wanna get it done as soon as I can."
+  items:
+    - tipo: listening
+      instruccion: "¿Cuántas palabras reales hay debajo de lo que oís?"
+      stimulus: "I wanna get it done as soon as I can."
+      opciones:
+        - "Nueve: I want to get it done as soon as I can."
+        - "Seis: como se oyen."
+        - "Siete: «wanna» cuenta como una."
+        - "Nueve, pero «done» no se oye."
+      correcta: A
+      por_que: >-
+        **Nueve palabras en seis bloques.** «wanna» es «want to» fundida, «get it» se
+        encadena y «as soon as» sale de una. Lo que oyes y lo que está no coinciden — y
+        esa es exactamente la habilidad que hay que entrenar: oír el ritmo sin perder el
+        contenido.
+    - tipo: listening
+      instruccion: "¿Qué dos trampas de linked speech hay en la frase?"
+      stimulus: "I wanna get it done as soon as I can."
+      opciones:
+        - "«want to» fundido en «wanna», y «get it» encadenado."
+        - "No hay ninguna: se dicen todas enteras."
+        - "Solo «as soon as»."
+        - "«done» y «can» se borran."
+      correcta: A
+      por_que: >-
+        «Want to» → /wɒnə/ es la fusión más común del inglés hablado, y la vas a oír en
+        todas partes menos en el aula. «Get it» → /ɡe-tɪt/ encadena sin corte. Si no las
+        reconocés, una frase simple suena a algo que no entendés del todo.
+    - tipo: listening
+      instruccion: "Decí la frase tal cual se oye y después tal cual está escrita. ¿Cuál fluye?"
+      stimulus: "I wanna get it done as soon as I can."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Las dos fluyen, pero la hablada suena a charla y la escrita a lectura. **No es
+        licencia: es cómo se dice.** «Wanna» no va en un mail — va en una llamada. Esa
+        es toda la diferencia, y es la misma regla del bloque anterior: se reduce el
+        sonido, no la forma escrita.
+  coloquial:
+    - {expr: "wanna / gotta", uk: "want to / got to", us: "wanna / gotta",
+       sentido: "Fundidos reales del habla. Nunca en un mail."}
+    - {expr: "get it done", uk: "get it done", us: "get it done",
+       sentido: "Terminarlo — «get it» se encadena en un solo sonido"}
+  vocabulario:
+    - {palabra: "wanna", fuente: material, uk: "WON-a", us: "WON-a",
+       frase: "I wanna get it done.",
+       sentido: "«Want to» fundido. Habla, jamás escrito."}
+    - {palabra: "gotta", fuente: frecuencia, uk: "GOT-a", us: "GOT-a",
+       frase: "I gotta send the report.",
+       sentido: "«Got to» fundido. Habla, jamás escrito."}
+    - {palabra: "done", fuente: material, uk: "dun", us: "dun",
+       frase: "I wanna get it done.",
+       sentido: "Hecho. Cierra el bloque verbal con rebote."}
+    - {palabra: "can", fuente: material, uk: "kn", us: "kn",
+       frase: "As soon as I can.",
+       sentido: "Poder. Se aplasta hasta /kn/ — casi sin vocal."}
+    - {palabra: "soon", fuente: material, uk: "soon", us: "soon",
+       frase: "As soon as I can.",
+       sentido: "Pronto. Se repite: es el bloque más fundido del inglés."}
+    - {palabra: "want", fuente: frecuencia, uk: "wont", us: "wont",
+       frase: "I want to get it done.",
+       sentido: "Querer. Es lo que queda escrito debajo de «wanna»."}
+  cuerpo: |
+    **Percepción de ritmo en escucha.** El día donde se entiende para qué servía todo lo
+    anterior: **lo que oyes y lo que está escrito no coinciden**.
+
+    «I wanna get it done as soon as I can» son nueve palabras que suenan como seis. Y ese
+    desfase es justamente lo que hace que el inglés hablado sea difícil para quien lo
+    estudió solo en el papel.
+
+    Los dos mecanismos del día: **«want to» se funde en «wanna»** — la fusión más común del
+    idioma, ausente de todos los aula — y **«get it» se encadena** sin corte entre la D y
+    la I.
+
+    Y una distinción que se aplica desde hoy: **«wanna» va en una llamada, nunca en un
+    mail**. Es la misma regla de siempre, que ya apareció dos veces: lo que se reduce al
+    hablar no se escribe reducido.
+
+    Si el bloque quedó, algo va a cambiar sin que hagas nada: **empezás a oír el inglés
+    como bloques en vez de palabras**. Es la señal de que el ritmo entró.
