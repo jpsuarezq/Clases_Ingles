@@ -1,0 +1,131 @@
+# Autoevaluación de Writing y Speaking
+
+Fuente: **descriptores oficiales públicos de IELTS** — Writing Task 2 (ielts.org, PDF de band
+descriptors) y Speaking (ielts.idp.com, IELTS Partners). Traídos el 2026-10-13.
+
+**Esto no es un estándar propio.** Es una **traducción al español** del descriptor del
+examinador. Cada ítem lleva el texto original en inglés entre comillas para que puedas
+verificar que no lo reescribí a mi gusto. `_12`
+
+---
+
+## Cómo se usa
+
+1. Hacé la tarea.
+2. En cada uno de los cuatro criterios, leé los tres bands de arriba hacia abajo.
+3. **Marcá el band más alto donde TODAS las afirmaciones sean ciertas.** Los descriptores
+   funcionan así: un band se otorga cuando mostrás sus rasgos, no cuando mostrás algunos.
+4. Sacá el promedio de los cuatro criterios y redondealo al medio punto más cercano.
+
+Ese número va en `nivel_autoevaluado` de tu `registro.md`, con `band_fuente: autoevaluada`.
+
+> **⚠ Esto no puede dar por cumplida la meta.** Es tendencia. `_12`
+> La meta de 5.0 se mide contra `banda_medida` — L y R, computada con tablas raw→band.
+> Contra esto no se mide nada: sirve para ver si vas subiendo, no para dar por terminado el plan.
+
+---
+
+## Writing — Task 2
+
+Citas textuales del PDF oficial `ielts-writing-band-descriptors.pdf` de ielts.org, salvo el
+**band 4**, que no venía en el fragmento traído y sale de un espejo — va marcado.
+
+### Task Response
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"The main parts of the prompt are addressed (though some may be more fully covered than others). An appropriate format is used. A position is presented that is directly relevant to the prompt, although the conclusions drawn may be unclear, unjustified or repetitive. Main ideas are relevant, but some may be insufficiently developed or may lack clarity, while some supporting arguments and evidence may be less relevant or inadequate."* | Contestaste **todas** las partes de la consigna, aunque unas más que otras. Tu postura va al tema, aunque la conclusión a veces quede floja o se repita. Las ideas son pertinentes pero **algunas quedan a medias**. |
+| **5** | *"The main parts of the prompt are incompletely addressed. The format may be inappropriate in places. The writer expresses a position, but the development is not always clear. Some main ideas are put forward, but they are limited and are not sufficiently developed and/or there may be irrelevant detail. There may be some repetition."* | Contestaste **en parte**. Expresás una postura pero el desarrollo no siempre se entiende, y puede que no cierres con conclusión. Las ideas son pocas y flojas, metés detalle que no va, y a veces te repetís. |
+| **4** | *"responds to the task only in a minimal way or the answer is tangential; the format may be inappropriate; presents a position but this is unclear; presents some main ideas but these are difficult to identify and may be repetitive, irrelevant or not well supported"* | Contestaste **mínimamente** o te fuiste de tema. Tu postura no se entiende. Las ideas que hay son difíciles de identificar, se repiten o no están sostendas. |
+
+### Coherence & Cohesion
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"Information and ideas are generally arranged coherently and there is a clear overall progression. Cohesive devices are used to some good effect but cohesion within and/or between sentences may be faulty or mechanical due to misuse, overuse or omission. The use of reference and substitution may lack flexibility or clarity and result in some repetition or error. Paragraphing may not always be logical and/or the central topic may not always be clear."* | Las ideas van en orden con una progresión clara. Los conectivos funcionan aunque a veces **suenen mecánicos**. Los párrafos existen pero no siempre están en el lugar que corresponde. |
+| **5** | *"Organisation is evident but is not wholly logical and there may be a lack of overall progression. Nevertheless, there is a sense of underlying coherence to the response. The relationship of ideas can be followed but the sentences are not fluently linked to each other. There may be limited/overuse of cohesive devices with some inaccuracy. The writing may be repetitive due to inadequate and/or inaccurate use of reference and substitution. Paragraphing may be inadequate or missing."* | Hay orden pero **no avanza hacia ningún lado**. Se entiende de qué va, pero las oraciones no se enlazan con soltura. Los conectivos sobran o faltan. Es repetitivo. **Los párrafos pueden faltar o estar mal.** |
+| **4** | *"presents information and ideas but these are not arranged coherently and there is no clear progression in the response; uses some basic cohesive devices but these may be inaccurate or repetitive; may not write in paragraphs or their use may be confusing"* | Las ideas están pero **sin orden**, y no progresan. Los conectivos son básicos e inexactos. No hay párrafos, o se confunde cuándo empieza uno. |
+
+### Lexical Resource
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"The resource is generally adequate and appropriate for the task. The meaning is generally clear in spite of a rather restricted range or a lack of precision in word choice. If the writer is a risk-taker, there will be a wider range of vocabulary used but higher degrees of inaccuracy or inappropriate. There are some errors in spelling and/or word formation, but these do not impede communication."* | Tu vocabulario **alcanza para la tarea** aunque sea acotado y a veces no precise. Si te animás con palabras más raras, te equivocás más — eso el descriptor lo contempla. Los errores de spelling **no te bloquean**. |
+| **5** | *"The resource is limited but minimally adequate for the task. Simple vocabulary may be used accurately but the range does not permit much variation in expression. There may be frequent lapses in the appropriacy of word choice and a lack of flexibility is apparent in frequent simplifications and/or repetitions. Errors in spelling and/or word formation may be noticeable and may cause some difficulty for the reader."* | Tu vocabulario es **limitado**, apenas alcanza. Lo simple sale bien pero **no te deja variar**. Elegís mal palabras seguido. Los errores de spelling se notan y le cuestan al lector. |
+| **4** | *"uses only basic vocabulary which may be used repetitively or may be inappropriate for the task; has limited control of word formation and spelling; errors may cause difficulty for the reader"* | Solo vocabulario **básico**, repetido o que no pega con la tarea. Control pobre de spelling y formación de palabras. |
+
+### Grammatical Range & Accuracy
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"A mix of simple and complex sentence forms is used but flexibility is limited. Examples of more complex structures are not marked by the same level of accuracy as in simple structures. Errors in grammar and punctuation occur, but rarely impede communication."* | Mezclás simples y complejas **pero con poca soltura**. Las complejas te salen menos precisas que las simples. Te equivocás, pero **rara vez** te entienden peor por eso. |
+| **5** | *"The range of structures is limited and rather repetitive. Although complex sentences are attempted, they tend to be faulty, and the greatest accuracy is achieved on simple sentences. Grammatical errors may be frequent and cause some difficulty for the reader. Punctuation may be faulty."* | Estructuras **limitadas y repetidas**. Intentás complejas pero **salen rotas**; lo más precio es lo simple. Los errores son frecuentes y a veces dificultan la lectura. |
+| **4** | *"uses only a very limited range of structures with only rare use of subordinate clauses; some structures are accurate but errors predominate, and punctuation is often faulty"* | Muy pocas estructuras. **Las subordinadas casi no aparecen.** Lo correcto es la excepción; los errores predominan. |
+
+---
+
+## Speaking
+
+Citas textuales de la página oficial de IDP de band descriptors de Speaking — **IELTS Partners**,
+no un tercero. Band 4, 5 y 6 cubiertos completos.
+
+### Fluency & Coherence
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"is willing to speak at length, though may lose coherence at times due to occasional repetition, self-correction or hesitation; uses a range of connectives and discourse markers but not always appropriately"* | **Te animás a hablar de largo**, aunque a veces te enredás y te corregís. Usás conectivos variados aunque no siempre bien elegidos. |
+| **5** | *"usually maintains flow of speech but uses repetition, self-correction and/or slow speech to keep going; may over-use certain connectives and discourse markers; produces simple speech fluently, but more complex communication causes fluency problems"* | Mantenés el flujo **con trucos**: repetís, te corregís o vas lento. Lo simple sale fluido; **lo complicado te corta**. |
+| **4** | *"cannot respond without noticeable pauses and may speak slowly, with frequent repetition and self-correction; links basic sentences but with repetitious use of simple connectives and some breakdowns in coherence"* | **No podés responder sin pausas largas.** Las unís básicas con los mismos conectivos de siempre, y a veces se te corta el hilo. |
+
+### Lexical Resource
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"has a wide enough vocabulary to discuss topics at length and make meaning clear in spite of inappropriacies; generally paraphrases successfully"* | Tu vocabulario **alcanza para hablar de largo** aunque pegues algún término mal. **Parafraseás bien** cuando no te sale la palabra. |
+| **5** | *"manages to talk about familiar and unfamiliar topics but uses vocabulary with limited flexibility; attempts to use paraphrase but with mixed success"* | Hablás de temas conocidos y desconocidos, pero **con las mismas palabras de siempre**. Parafraseás a veces sí y a veces no. |
+| **4** | *"is able to talk about familiar topics but can only convey basic meaning on unfamiliar topics and makes frequent errors in word choice; rarely attempts paraphrase"* | Solo de temas **conocidos**. En temas nuevos apenas transmitís algo básico. **Casi nunca parafraseás** — te trabás. |
+
+### Grammatical Range & Accuracy
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"uses a mix of simple and complex structures, but with limited flexibility; may make frequent mistakes with complex structures, though these rarely cause comprehension problems"* | Mezclás simples y complejas pero **con poca soltura**. Fallás mucho las complejas, pero **casi nunca se te entiende peor**. |
+| **5** | *"produces basic sentence forms with reasonable accuracy; uses a limited range of more complex structures, but these usually contain errors and may cause some comprehension problems"* | Las básicas salen bien. **Las complejas casi siempre tienen error** y a veces impiden entender. |
+| **4** | *"produces basic sentence forms and some correct simple sentences but subordinate structures are rare; errors are frequent and may lead to misunderstanding"* | Básicas correctas, pero **las subordinadas casi no existen**. Los errores son frecuentes y pueden llevar a malentender. |
+
+### Pronunciación
+
+| | Descriptor original | Qué marcar en español |
+| --- | --- | --- |
+| **6** | *"uses a range of pronunciation features with mixed control; shows some effective use of features but this is not sustained; can generally be understood throughout, though mispronunciation of individual words or sounds reduces clarity at times"* | Usás varios rasgos de pronunciación **con control desparejo**. **Te entienden casi siempre**, aunque alguna palabra suelte te quite claridad. |
+| **5** | *"shows all features of band 4 and some, but not all the positive features of band 6"* | **Todo lo del band 4, más algunas cosas del 6** — pero no todas. El descriptor te lo define por comparación, no por lista propia. |
+| **4** | *"uses a limited range of pronunciation features; attempts to control features but lapses are frequent; mispronunciations are frequent and cause some difficulty for the listener"* | Pocos rasgos. **Te esforzás pero se te caen seguido.** Las palabras mal dichas le cuestan al oyente. |
+
+> **El band 5 de Pronunciación está definido por referencia**, no por rasgos propios. Si estás
+> entre 4 y 6, es donde más te va a costar ubicarte — y es donde el drill de phonema diario (#9)
+> tiene más peso.
+
+---
+
+## Cómo se convierte en `nivel_autoevaluado`
+
+```
+Writing  = media de tus 4 criterios, redondeada al medio punto
+Speaking = media de tus 4 criterios, redondeada al medio punto
+
+nivel_autoevaluado = media de Writing y Speaking, redondeada al medio punto
+band_fuente        = autoevaluada
+```
+
+Y va **solo** en `nivel_autoevaluado`, nunca en `banda_medida`. `_12`
+
+---
+
+## Qué NO cubre esto
+
+- **Listening y Reading** no están acá: esas se computan con las tablas raw→band y van en
+  `banda_medida`. `_12`
+- **Task 1** de Writing tampoco: en la práctica diaria solo se hace Task 2; Task 1 entra en el
+  drill semanal y en los mocks. `_8`
+- **La corrección de Writing con LLM** es otra cosa: es el feedback, con cita obligatoria y una
+  acción concreta. Esta lista no la reemplaza ni la pisa. `_8`

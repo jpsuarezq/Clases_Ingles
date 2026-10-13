@@ -191,6 +191,8 @@ _Avoid_: control, chequeo, validación
 La lista corta derivada de los descriptores oficiales de IELTS para Writing y Speaking. Es una
 **traducción** de los descriptores del examinador, no una rúbrica propia — inventar una daría dos
 estándares y el riesgo de que el propio sea más laxo que el del examen real.
+Producida en `docs/descriptores/autoevaluacion-w-s.md`, con el texto original en inglés al lado
+de cada ítem para que se pueda verificar que no fue reescrito.
 _Avoid_: rúbrica, checklist, criterios
 
 **Acento de producción**:
