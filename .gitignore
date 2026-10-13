@@ -39,3 +39,7 @@ ejercicios/dia-*/registro.md
 # Lockfiles: keep npm's, ignore the rest
 yarn.lock
 pnpm-lock.yaml
+# Bitácora personal — no va al repo público (#11)
+ejercicios/*/registro.md
+progreso.md
+tools/__pycache__/

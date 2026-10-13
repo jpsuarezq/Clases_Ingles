@@ -1,0 +1,812 @@
+# GENERADO por tools/extraer-dialogos.py — Everyday Conversations,
+# US Dept. of State, dominio público (ver tools/corpus/FUENTES.md)
+- num: 1-1
+  titulo: Formal Greetings
+  turnos:
+  - de: JAMES
+    d: "\a\t\t\t         Good morning, Professor Austin, how are you doing?"
+  - de: PROFESSOR AUSTIN
+    d: "\a\t Good morning, James. I am doing well. And you?"
+  - de: JAMES
+    d: "\a\t\t\t\aI’m great, thank you. This is my friend Emma. She is thinking about applying to this\
+      \ college. She has a few questions. Would you mind telling us about the process, please?"
+  - de: PROFESSOR AUSTIN
+    d: "\aHello, Emma! It’s a pleasure to meet you. I’m more than happy to speak with you. Please stop\
+      \ by my office next week."
+  - de: EMMA
+    d: "\a\t\t\t\aIt’s a pleasure to meet you, professor. Thank you so much for helping us."
+  - de: PROFESSOR AUSTIN
+    d: "\a\t\aDon’t mention it. Hopefully, I will be able to answer your questions! LANGUAGE NOTES • \t\
+      \aThe greetings good morning/good afternoon/good evening are used at different times        • \t\
+      \a“Don’t mention it” is another way of saying “You’re welcome.” The phrase “You are of the day to\
+      \ greet people. “Good evening” is often used after 6 p.m. or generally when       welcome” is more\
+      \ formal. However, responses such as Don’t mention it./No problem./ the sun has set.           \
+      \                                                                   Happy to help. are informal\
+      \ ways of responding to a thank you. • \a\t “Good night” is not a greeting: It is used when leaving\
+      \ a place or group of people. Thank you and good night!/Good night, and see you tomorrow. • \a\t\
+      \ When people meet in the United States, it is customary for them to shake hands. A handshake should\
+      \ be firm and usually lasts for about two to three seconds ­— which allows enough time to say “Nice\
+      \ to meet you.”"
+- num: 1-2
+  titulo: Informal Greetings and Farewells
+  turnos:
+  - de: JANE
+    d: "\a\t\t                   Hi, Helen! How’s it going?"
+  - de: HELEN
+    d: "\a\t\t                  Fine, thanks — and you?"
+  - de: JANE
+    d: "\a\t\t                   Just fine. Where are you off to?"
+  - de: HELEN
+    d: "\a         \aTo the library. I’ve got a history exam next week and need to start studying. Ugh."
+  - de: JANE
+    d: "\a\t\t                   Oh, no. Well, I’ll see you later then. Good luck!"
+  - de: HELEN
+    d: "\a\t\t                  Thanks. See you later. LANGUAGE NOTES • \t\a“Hi” is an informal way of\
+      \ saying “hello.” Notice that the “i” sound in “hi” is extended, to   • “To the library.” Notice\
+      \ that Helen does not say “I’m going” here because that show that Jane is very pleased to see Helen.\
+      \                                                      information was already established in the\
+      \ question “Where are you off to?” • \a “How’s it going?” is an informal way of saying “How are\
+      \ you?”                                  • “Oh, no” is a way of saying “I sympathize with you” or\
+      \ “I understand you are not happy.” • \a\t “Fine, thanks—and you?” Notice the rising intonation\
+      \ on “and you?” This shows that            • “See you later” is an informal way of saying “goodbye.”\
+      \ Helen is interested in what Jane has to say. • \t\a“Where are you off to?” is an informal way\
+      \ of saying “Where are you going?” Notice the falling intonation since this is an information question,\
+      \ not a “yes/no” question."
+- num: 1-3
+  titulo: Formal Introductions
+  turnos:
+  - de: MARGARET
+    d: "\a\t\t\aMr. Wilson, I’d like you to meet Dr. Edward Smith."
+  - de: MR. WILSON
+    d: "\a\t\t   It’s nice to meet you, Dr. Smith."
+  - de: DR. SMITH
+    d: Pleasure to meet you, too.
+  - de: MARGARET
+    d: "\a\t\aDr. Smith is an economist. He just finished writing a book on international trade."
+  - de: MR. WILSON
+    d: "\a\t\t\aOh? That’s my field, too. I work for the United Nations."
+  - de: DR. SMITH
+    d: "\a\t\t    In the Development Program, by any chance?"
+  - de: MR. WILSON
+    d: Yes. How did you guess?
+  - de: DR. SMITH
+    d: "\a\t\aI’ve read your articles on technical assistance. They’re excellent. LANGUAGE NOTES •\a\t\
+      \ Mr. Wilson, I’d like you … Notice the rising intonation on “Mr. Wilson,” which is used    • Development\
+      \ program. Since these two words make a compound noun, the main to address someone. Listen for the\
+      \ “d” in “I’d like.” This means I would like, which is     stress falls on “development.” very different\
+      \ from I like. (“I’d like” means the same as “I would like” or “I want.”) • By any chance? Means\
+      \ the same as “possibly.” Notice the rising intonation, which is • \t\aDr. Smith is an economist.\
+      \ Notice the stress on “economist.” This content word has          used in yes/no questions to confirm\
+      \ that something is true. new information, so it is emphasized. There are four syllables in “economist,”\
+      \ with the stress on the second syllable (e-CON-o-mist). • He just finished writing … “just” means\
+      \ the very recent past. “Just” is usually used with a simple past verb because the action is complete.\
+      \ However, it can also be used with the present perfect (He’s just finished writing …)."
+- num: 1-4
+  titulo: Informal Introductions
+  turnos:
+  - de: JIM
+    d: Who’s the tall woman next to Barbara?
+  - de: CHARLES
+    d: "\a\t\t\aThat’s her friend Mary. Didn’t you meet her at Steve’s party?"
+  - de: JIM
+    d: No, I wasn’t at Steve’s party.
+  - de: CHARLES
+    d: "\aOh! Then let me introduce you to her now. Mary, this is my friend Jim."
+  - de: MARY
+    d: Hi, Jim. Nice to meet you.
+  - de: JIM
+    d: You, too. Would you like a drink?
+  - de: MARY
+    d: "Sure, let’s go get one. LANGUAGE NOTES • \a\t “Who’s” is the contracted form of who is. It is\
+      \ pronounced the same way as “whose” (/       •   Mary, this is my friend Jim. This is a friendly\
+      \ way to introduce two people. It’s huwz/), but the meaning is different.                      \
+      \                                     common to follow this with “Jim, this is Mary.” In this case,\
+      \ Mary says “Hi, Jim” first. • \a\t Didn’t you meet her …? Notice that this is a negative question.\
+      \ Charles thought that Jim    •   Nice to meet you. This is a typical response after you’ve been\
+      \ introduced to someone. had met Mary before. He is now surprised that Jim does not know Mary, and\
+      \ so he uses a •   “Sure” is often used in informal conversation to mean “yes.” negative question\
+      \ to show his surprise. • \a\t I wasn’t at Steve’s party. Notice that the emphasis here is on “at”\
+      \ although prepositions normally have weak stress. In this case, “at” means “there” (I wasn’t there)."
+- num: 1-5
+  titulo: What Time Is It?
+  turnos:
+  - de: NATASHA
+    d: "\a\t\t               What time is it? We’re going to be late!"
+  - de: TONY
+    d: "\a\t\t                  It’s a quarter after seven. We’re on time. Don’t panic."
+  - de: NATASHA
+    d: "\aBut I thought we had to be at the restaurant by 7:30 for the surprise party. We’ll never make\
+      \ it there with all this evening traffic."
+  - de: TONY
+    d: "\a\t\t\aSure we will. Rush hour is almost over. Anyway, the party starts at 8:00. But I do need\
+      \ help with directions. Can you call the restaurant and ask them where we park our car? LANGUAGE\
+      \ NOTES •   \aI t’s a quarter after seven. This phrase is one of the most common ways of stating\
+      \          • Natasha thinks the surprise party begins at 7:30. There are two different ways to this\
+      \ time. It means: “It’s 15 minutes past 7:00.” Another possibility here is to simply       express\
+      \ this time. You may say simply “seven thirty” or “half past seven.” say: “It’s seven fifteen.”\
+      \ In general you can say: “It’s a quarter past the hour.” How do • Rush hour is the time of day—usually\
+      \ in the morning and evening—when traffic is we know the time of day? Look for context clues: “evening\
+      \ traffic.” heavy because of people commuting to and from their workplace by bus, by car, by • \t\
+      \aIn the dialog, Natasha and Tony are going to a surprise party. They need to be on time.      \
+      \  subway, on foot, etc. Therefore there is an element of stress and urgency. When someone is stressed\
+      \ for time you can use expressions like: Don’t worry. / Don’t stress. / We’re fine. / We will be\
+      \ on time."
+- num: 1-6
+  titulo: A Telephone Call
+  turnos:
+  - de: JOHN
+    d: Hi, Alice, it’s John. How are you?
+  - de: ALICE
+    d: "\a\t   Oh, hi, John! I was just thinking about you."
+  - de: JOHN
+    d: "\a\t\aThat’s nice. I was wondering if you’d like to go to a movie tonight."
+  - de: ALICE
+    d: Sure, I’d love to! What’s playing?
+  - de: JOHN
+    d: "\a\t\aI was thinking about that new comedy Lights Out. What do you think?"
+  - de: ALICE
+    d: Sounds great!
+  - de: JOHN
+    d: "\a\t    OK, I’ll pick you up around 7:30. The movie starts at 8:00."
+  - de: ALICE
+    d: "See you then. Bye! LANGUAGE NOTES •   \aH i, Alice, it’s John: Hi, ____, it’s ____ is a casual\
+      \ and friendly way to say hello on the   • \aS ure! I’d love to means “Yes, I would love to.” Notice\
+      \ that Alice is very enthusiastic phone. Although “it’s” means “it is,” it is used to mean “I am”\
+      \ here.                            and friendly. She wants John to feel comfortable about asking\
+      \ her out on a date. • \a\t Oh, hi, John! Notice the rising intonation here. Alice is excited to\
+      \ hear from John and is    • \a I was thinking about … / What do you think? Again, John does not\
+      \ want to appear very pleased that he called her.                                              \
+      \                    too bold. He wants to give Alice a chance to suggest a movie. • \aI was wondering\
+      \ if you’d like to ... This is a polite and indirect way of asking “Do you        • Sounds great!\
+      \ Is an informal way of saying “That is a good plan.” want to …?” John is nervous and does not want\
+      \ to appear too direct or bold. Notice • \a I’ll pick you up is an informal way of saying “I’ll\
+      \ come to your house so that we can how the question goes up at the end, which shows that he is\
+      \ not overly confident. go together.”"
+- num: 1-7
+  titulo: Can You Say That Again?
+  turnos:
+  - de: LUKE
+    d: "\aHello? Hi, Stephanie, how are things at the office?"
+  - de: STEPHANIE
+    d: "\a\t\aHi, Luke! How are you? Can you please stop and pick up extra paper for the computer printer?"
+  - de: LUKE
+    d: "\a\t\a\t\aWhat did you say? Can you repeat that, please? Did you say to pick up ink for the printer?\
+      \ Sorry, the phone is cutting out."
+  - de: STEPHANIE
+    d: "\a\t\aCan you hear me now? No, I need more computer paper. Listen, I’ll text you exactly what\
+      \ I need. Thanks, Luke. Talk to you later."
+  - de: LUKE
+    d: "\a\t\t\aThanks, Stephanie. Sorry, my phone has really bad reception here. LANGUAGE NOTES • \t\a\
+      There are a few ways to express a lack of understanding and to request additional          •   \a\
+      Talk to you later is the equivalent in a phone conversation of “See you later” in a information.\
+      \ The most common ones are stated, but you can also say “Excuse me” or               regular, face-to-face\
+      \ conversation. simply “I can’t hear you.” In a more formal situation, try saying “I’m sorry?” or\
+      \ “I beg • \t\aReception here means the availability of cellular service, the possibility to receive\
+      \ and your pardon?” (with a rising intonation). give calls on a cellphone. Cellphone reception can\
+      \ be limited in remote areas, inside • \a\t When asking someone to clarify information try saying\
+      \ Can you please repeat that? /           large buildings or underground (in the subway, for instance).\
+      \ Can you spell that for me? / Can you please write down the address for me? • \a Cutting out describes\
+      \ a difficulty in understanding a caller due to poor cellphone reception. If you are having trouble\
+      \ understanding the caller, you can also say The line is breaking up / I am losing you. If the phone\
+      \ call is disconnected because of poor reception, you can say The call dropped."
+- num: 1-8
+  titulo: Coincidences
+  turnos:
+  - de: MEG
+    d: "\a\t   Well, hello there, Julia! Long time no see!"
+  - de: JULIA
+    d: "\a\t\aMeg! Hi! What a coincidence! I haven’t seen you in ages! What are you doing here?"
+  - de: MEG
+    d: "\a\t\aI just got a new job in the city, so I’m shopping for some clothes. Hey, what do you think\
+      \ of this shirt?"
+  - de: JULIA
+    d: "\a\t\aHmmm … well, you know how much I love blue. See? I’ve got the same shirt!"
+  - de: MEG
+    d: "\a\t   You always did have good taste! What a small world. LANGUAGE NOTES •   \aWell, hello there\
+      \ … Notice the emphasis on “hello,” which shows that Meg did not      • \a\t You always did have\
+      \ good taste! Notice the stress on “did,” which Meg uses to expect to see Julia.               \
+      \                                                        emphasize the fact that Julia DOES have\
+      \ good taste! Meg says it in a joking way because Julia likes the same thing that she does. • \a\
+      \t Long time, no see! This is a common expression used to say hello to someone you haven’t seen\
+      \ in a long time.                                                          • \a\t What a small world\
+      \ is a common expression used to describe a chance meeting or other such coincidence. •   \aWhat\
+      \ a ___! This exclamation shows a great degree of surprise, joy, disappointment, etc. (What a surprise\
+      \ to see you here! What a joy to have you with us! What a shame that you have to leave so soon!\
+      \ What a wonderful idea that is!)"
+- num: 1-9
+  titulo: Weather Report
+  turnos:
+  - de: JENNIFER
+    d: "\a\t\t\aIt’s freezing outside! What happened to the weather report? I thought this cold front\
+      \ was supposed to pass."
+  - de: GABRIELA
+    d: "\a\t\a\t\aYeah, I thought so too. That’s what I read online \a this morning."
+  - de: JENNIFER
+    d: "\a\t\t\aI guess the wind chill is really driving down the temperature."
+  - de: GABRIELA
+    d: "\a\t\a\t\aCan we go inside? I feel like my toes are starting to go numb. LANGUAGE NOTES • \a\t\
+      \ A “cold front” means a large mass of cold air. It can be plural: There were multiple cold   •\
+      \ \aC hill / freezing / cold: These words describe cold weather. I feel the wind chill. / I feel\
+      \ fronts this January.                                                                         \
+      \  the chill. / I am freezing. / I am cold. • \a\t Here “supposed to” refers to something that is\
+      \ intended or expected to happen: I            • \a\t Wind chill is the effect of the wind making\
+      \ the temperature feel colder on a person’s thought it was supposed to rain today. This phrase can\
+      \ be used for many situations: I            skin. This is an uncountable noun. The temperature is\
+      \ 4 degrees, but with the wind chill thought the train was supposed to arrive at 9:00 a.m. sharp.\
+      \                                     it feels like -8. These phrases are used in weather reports\
+      \ as well. • \a\t Yeah / Yup / Uh huh are informal conversational cues used by native speakers in\
+      \             • \a\t The phrase “driving down” means “forcing to be lower” and can be used in many\
+      \ conversation. Each of these responses could be used here for “yes.” Gabriela affirms         \
+      \    situations. An oversupply of new houses is driving down sales prices in the area. what Jennifer\
+      \ is saying. The most polite way to affirm a response is to say “yes.” • \t\aListen for the emphasis\
+      \ on “That’s what I read online this morning.” This useful phrase can be used with other verbs to\
+      \ convey information: That’s what I heard on the radio. / That’s what I saw on TV. / That’s what\
+      \ I read online. Around Town"
+- num: 2-1
+  titulo: Ordering a Meal
+  turnos:
+  - de: WAITER
+    d: "\a\t\t\aHello, I’ll be your waiter today. Can I start you off with something to drink?"
+  - de: RALPH
+    d: Yes. I’ll have iced tea, please.
+  - de: ANNA
+    d: And I’ll have lemonade.
+  - de: WAITER
+    d: "\a\t\t\aOK. Are you ready to order, or do you need a few minutes?"
+  - de: RALPH
+    d: "\a\t\a\t\aI think we’re ready. I’ll have the tomato soup to start, and the roast beef with mashed\
+      \ potatoes and peas."
+  - de: WAITER
+    d: How do you want the beef — rare, medium, or well done?
+  - de: RALPH
+    d: Well done, please.
+  - de: ANNA
+    d: "\a\t\t     And I’ll just have the fish, with potatoes and a salad. LANGUAGE NOTES • \a\t Can I\
+      \ start you off with something to drink? Notice how the question starts with    • \a\t I’ll have\
+      \ the tomato soup to start, and the roast beef with mashed potatoes and “Can.” Since this is a yes/no\
+      \ question, the intonation rises at the end.                 peas. Notice that “tomato soup,” “roast\
+      \ beef,” “mashed potatoes” and “peas” are stressed because the food order is the important information\
+      \ here. Notice also that •   \aA nd I’ll have lemonade. Notice how Anna stresses “I’ll” and “lemonade”\
+      \ to “tomato soup,” “roast beef” and “mashed potatoes” are compound words. The stress emphasize\
+      \ her choice. falls on the second word in each phrase. •\t\aAre you ready to order, or do you need\
+      \ a few minutes? The word “or” signals • \a\t Well done, please. Notice that the subject and verb\
+      \ are omitted in the response; only a choice here. Notice the rising intonation on order, and the\
+      \ falling intonation on the necessary information is given. minutes (the first choice is “Are you\
+      \ ready to order?” and the second choice is “Do you need a few minutes?”).                     \
+      \                                       • \a\t I’ll just have the fish. Anna says “just” here to\
+      \ mean that she does not want a starter."
+- num: 2-2
+  titulo: At the Doctor’s Office
+  turnos:
+  - de: DOCTOR
+    d: "\a\t\t                 What seems to be the problem?"
+  - de: CATHY
+    d: "\a\t\a\t\aWell, I have a bad cough and a sore throat. I also have a headache."
+  - de: DOCTOR
+    d: "\a\t\t                 How long have you had these symptoms?"
+  - de: CATHY
+    d: About three days now. And I’m really tired, too.
+  - de: DOCTOR
+    d: "\a\t\t\aHmm. It sounds like you’ve got the flu. Take aspirin every four hours and get plenty of\
+      \ rest. Make sure you drink lots of fluids. Call me if you’re still sick next week."
+  - de: CATHY
+    d: "OK, thanks. LANGUAGE NOTES •   \aWhat seems to be the problem? means “What is the problem?” Notice\
+      \ that the intonation    • \a\t About is used to mean “more or less.” It’s used here to give an\
+      \ estimate of time. falls at the end of the question. The doctor wants information, not a “yes/no”\
+      \ answer. • \a\t Take aspirin … get rest … Make sure … Call me: Notice the doctor uses the simple\
+      \ tense • \a\t Well is used as an introductory word. Notice how the vowel is drawn out, to sound\
+      \ like        here to give instructions. This is the imperative form of the verb. “Weeeeeell …”\
+      \ This can be used as a way to “buy time” while you think about what you •   Still sick means “continue\
+      \ to be sick.” want to say next. • \a\t A bad cough …  a sore throat … a headache: Notice the article\
+      \ “a” before each symptom."
+- num: 2-3
+  titulo: Asking Directions
+  turnos:
+  - de: MARK
+    d: "\a\t\t                   Excuse me. Could you tell me where the library is?"
+  - de: NANCY
+    d: "\a\t\a\t\aYes, it’s that way. You go three blocks to Washington Street, then turn right. It’s\
+      \ on the corner, across from the bank."
+  - de: MARK
+    d: "\a\t\a\t\aThanks! I’ve only been in town a few days, so I really don’t know my way around yet."
+  - de: NANCY
+    d: "\a          \a         \aOh, I know how you feel. We moved here a year ago, and I still don’t\
+      \ know where everything is! LANGUAGE NOTES • \aC ould you tell me … is slightly more polite than\
+      \ “Can you tell me …?”                         • \a\t I know how you feel is a way of saying “I\
+      \ understand.” Notice the emphasis on “feel.” The speaker wants to show empathy and understanding.\
+      \ • \t\aCould you tell me where the library is? Notice that “library” is stressed here because it\
+      \ is the word with the important information. This is an indirect question, so the subject   • \a\
+      \t I still don’t know where everything is! Notice the word order of where “everything (the library)\
+      \ comes before the verb (is). The word order is reversed in a direct question          is.” The\
+      \ subject (everything) comes before the verb (is). This word order is different from (Where is the\
+      \ library?).                                                                           the direct\
+      \ question (Where is everything?). • \t\aYes, it’s that way. Notice the stress on “that.” The speaker\
+      \ is pointing in a certain direction and wants to emphasize that direction."
+- num: 2-4
+  titulo: Calling for Help
+  turnos:
+  - de: PETER
+    d: "\a\t   Hey! That car just ran a red light and hit that truck!"
+  - de: GAIL
+    d: Is anyone hurt?
+  - de: PETER
+    d: "\a\t\t\aI don’t know … let’s call 911. … Hello? I’d like to report a car accident near the post\
+      \ office on Charles Street. It looks like a man is hurt. Yes, it just happened. OK, thanks. Bye."
+  - de: GAIL
+    d: What did they say?
+  - de: PETER
+    d: "\aThey’re going to send an ambulance and a police car right away."
+  - de: GAIL
+    d: Good, they’re here. I hope the man is OK.
+  - de: PETER
+    d: "\a\t\t   I know. You have to be so careful when you’re driving. LANGUAGE NOTES • \a\t Hey! This\
+      \ expression is used to show surprise. Notice how That car just ran a red light   • \aI ’d like\
+      \ to report a car accident near the post office on Charles Street. Notice how and hit that truck!\
+      \ is said with a lot of energy.                                            the key words “car accident,”\
+      \ “post office” and “Charles Street” are stressed. These are the important details that the emergency\
+      \ services need. • \a\t Is anyone hurt? This is a yes/no question, so the intonation rises at the\
+      \ end. Notice how this question is asked in a worried way.                                     \
+      \         • \a\t It just happened is a way of saying “It happened a moment ago.” Notice the stress\
+      \ on “just,” which emphasizes that the accident happened very, very recently. • \a 911 is the phone\
+      \ number you dial for emergency services. The person who answers will ask you questions about the\
+      \ emergency situation and then send out the necessary       • \a\t What did they say? Notice how\
+      \ “say” is emphasized, but the intonation falls at the end emergency services, which may include\
+      \ police officers, firefighters and an ambulance.           of the word. This is a “what” question,\
+      \ so the intonation falls at the end."
+- num: 2-5
+  titulo: At the Supermarket
+  turnos:
+  - de: LOUISE
+    d: "\a\t\aHey, Julia … Look at those desserts! How about baking some cookies today?"
+  - de: JULIA
+    d: "\a\t\a\t\aHmm … Yeah, that’s a great idea! While we’re here, let’s pick up the ingredients."
+  - de: JULIA
+    d: OK, what do we need?
+  - de: LOUISE
+    d: "\a\t\a\t\aThe recipe calls for flour, sugar and butter. Oh, and we also need eggs and chocolate\
+      \ chips."
+  - de: JULIA
+    d: "\a\t\t\aWhy don’t you get the dairy ingredients? You’ll find those in the refrigerated section\
+      \ in the back of the store. I’ll get the dry ingredients — they’re in aisle 10."
+  - de: LOUISE
+    d: Great! Let’s meet at the checkout.
+  - de: JULIA
+    d: "OK. See you there. LANGUAGE NOTES • \a\t How about is a casual way to suggest doing an activity.\
+      \ Notice that “how about” is followed    • \a\t … flour, sugar and butter. Notice that this is a\
+      \ list, so there are short pauses between each by an “-ing” verb.                              \
+      \                                                    item. Notice also that each ingredient is stressed\
+      \ because this information is important. • \a\t Hmm … Notice that Julia pauses for a moment. “Hmm”\
+      \ is an expression used to think about        • \a\t Why don’t you … This expression is used to\
+      \ ask someone to do something. It can also be something first before speaking.                 \
+      \                                                   used to give advice — but in this case two friends\
+      \ are deciding on who does which task. • That’s a great idea! Notice the emphasis on “great.” Julia\
+      \ has thought about it and then          • \a\t Aisle Notice the silent “s” in aisle. An aisle is\
+      \ an orderly lane in a supermarket, with shelved decided that she really does want to bake cookies.\
+      \                                                     products on both sides. Each aisle has a number,\
+      \ so that it is easy to find what you need. • \a\t The recipe calls for is a way of saying “the\
+      \ recipe says we need.” The phrase “call for” can also be used to talk about the weather forecast.\
+      \ (They’re calling for rain.)"
+- num: 2-6
+  titulo: Running Errands
+  turnos:
+  - de: HOTEL RECEPTIONIST
+    d: Hi, there. How can I help you?
+  - de: CLAIRE
+    d: "\a\t\t\t\t\aWell, I’m in town visiting for a few days, and I need to get some things done while\
+      \ I’m here."
+  - de: HOTEL RECEPTIONIST
+    d: Sure. What do you need?
+  - de: CLAIRE
+    d: "\a\t\t\t\t\aI need to get my hair cut. I also need to have my new pants hemmed."
+  - de: HOTEL RECEPTIONIST
+    d: "\aOK. Here’s a map of the city. There’s a good hair salon here, which is just a block away. And\
+      \ there’s a tailor right here. Is there anything else?"
+  - de: CLAIRE
+    d: "\a\t\t\t\t\aYes. I’ll need to have my car serviced before my long drive home!"
+  - de: HOTEL RECEPTIONIST
+    d: "\aNo problem. There’s a good mechanic a few blocks away. LANGUAGE NOTES • \aH i, there. Notice\
+      \ the intonation in this greeting. It rises after “Hi” and falls after “there.”   • \a\t Before\
+      \ my long drive home! Notice the emphasis and intonation on “home.” The speaker wants to show humor\
+      \ here. If she doesn’t get her car checked, she might not get • Sure is a friendly expression to\
+      \ mean “OK.” home! She wants to be friendly and light with the receptionist. • Get my hair cut /\
+      \ have my new pants hemmed / have my car serviced. Notice get/ • \a\t No problem here means “Don’t\
+      \ worry.” Notice the stress on “No.” The receptionist have + object + participle. This structure\
+      \ is used to describe actions that someone else laughs first, then puts emphasis on “No” by lengthening\
+      \ the word. This shows that she does for us. “Get” and “have” are interchangeable here. understands\
+      \ the car could break down if it doesn’t get serviced. • Is there anything else? here means “Do\
+      \ you need more information?”"
+- num: 2-7
+  titulo: At the Post Office
+  turnos:
+  - de: POSTAL CLERK
+    d: What can I do for you today?
+  - de: CAROL
+    d: "\a\t\t\t         I need to mail this package to New York, please."
+  - de: POSTAL CLERK
+    d: "\a\t\aOK, let’s see how much it weighs … it’s about five pounds. If you send it express, it will\
+      \ get there tomorrow. Or you can send it priority and it will get there by Saturday."
+  - de: CAROL
+    d: Saturday is fine. How much will that be?
+  - de: POSTAL CLERK
+    d: "\a\t\t   $11.35 [eleven thirty-five]. Do you need anything else?"
+  - de: CAROL
+    d: "\a\t\t\t         Oh, yeah! I almost forgot. I need a book of stamps, too."
+  - de: POSTAL CLERK
+    d: "\a\t\t\aOK, your total comes to $20.35 [twenty dollars and thirty-five cents]. LANGUAGE NOTES\
+      \ • \aWhat can I do for you today? Notice that this question starts with “What,” so the        \
+      \    • \a\t Oh, yeah! is an expression used here to mean “I just remembered something.” It’s often\
+      \ intonation drops at the end of the question.                                                 \
+      \     followed by “I almost forgot.” • \aO r you can send it priority … Notice the stress on “or,”\
+      \ which emphasizes that there is     • Your total comes to … is a way of saying “the cost is ….”\
+      \ another possibility. • \a$ 11.35 ... $20.35 Notice the two different ways the postal clerk says\
+      \ the price. First he says eleven thirty-five (without the words dollars and cents), then he says\
+      \ twenty dollars and thirty-five cents."
+- num: 2-8
+  titulo: Catching Up After Class
+  turnos:
+  - de: LINDA
+    d: "\a\t\t                  Hey! How did your physics exam go?"
+  - de: FRANK
+    d: "\aNot bad, thanks. I’m just glad it’s over! How about you … how’d your presentation go?"
+  - de: LINDA
+    d: "\a\t\t                  Oh, it went really well. Thanks for helping me with it!"
+  - de: FRANK
+    d: "\aNo problem. So … do you feel like studying tomorrow for our math exam?"
+  - de: LINDA
+    d: Yeah, sure! Come over around 10:00, after breakfast.
+  - de: FRANK
+    d: "\aAll right. I’ll bring my notes. LANGUAGE NOTES •   Hey! is a friendly expression meaning “hello.”\
+      \                                       •   How’d your presentation … Notice the contraction for\
+      \ “How did” sounds like /howdj/ and “your” sounds like /yer/. •   How did your physics exam go?\
+      \ is a way of saying “How was your physics exam?” •   Do you feel like here has the meaning of “do\
+      \ you want to.” Notice “do you feel like” is •   I’m just glad … Notice the stress on “glad.” “Just”\
+      \ is used for emphasis before an followed by an “-ing” verb (studying). adjective here. •   Come\
+      \ over here has the meaning of “come to my house.” •   How about you … Notice the intonation falls\
+      \ here because the speaker is going to follow it up with a detailed question.                  \
+      \                             •   Notes Students take notes about what the teacher says during a\
+      \ lecture."
+- num: 2-9
+  titulo: Shopping
+  turnos:
+  - de: SALESPERSON
+    d: Can I help you?
+  - de: GLORIA
+    d: "\a\t\t\a\t      Yes, I’m looking for a sweater — in a size medium."
+  - de: SALESPERSON
+    d: "\a   \aLet’s see … here’s a nice white one. What do you think?"
+  - de: GLORIA
+    d: I think I’d rather have it in blue.
+  - de: SALESPERSON
+    d: "\a\t\t\aOK … here’s blue, in a medium. Would you \a like to try it on?"
+  - de: GLORIA
+    d: "\a\t\t\t\aOK … yes, I love it. It fits perfectly. How much is it?"
+  - de: SALESPERSON
+    d: It’s $50. It will be $53, with tax.
+  - de: GLORIA
+    d: "Perfect! I’ll take it. LANGUAGE NOTES • \a\t Can I help you? or “May I help you?” is what a salesperson\
+      \ normally says to greet       • \a\t Would you like to …? is a polite way to ask “Do you want to\
+      \ …?” a customer. • \a\t Try it on means to test the fit or appearance of a garment by putting it\
+      \ on. “Try on” is a • \aI ’m looking for a here means “I don’t know exactly which one I want.” \
+      \                        separable phrasal verb, so the object “it” goes between “try” and “on.”\
+      \ • \a\t Size medium. Clothing usually comes in small, medium and large sizes. Some            \
+      \  • \a\t How much is it? means “How much does it cost?” Notice that the main sentence women’s clothing\
+      \ comes in number sizes, usually ranging from 2 to 16.                        stress falls on “is”\
+      \ in this question. • \aL et’s see … An expression used when a person wants to think something over,\
+      \ to           • I’ll take it means “I will buy it.” make a choice or decision, or to look for something.\
+      \ • \a\t I’d rather have it in here means “I don’t like this exact one. I would prefer it in a different”\
+      \ color/size/material, etc."
+- num: 2-10
+  titulo: Transportation
+  turnos:
+  - de: JOYCE
+    d: Should we take a taxi or a bus to the mall?
+  - de: BILL
+    d: "\a\t\t\a\t\aLet’s take a bus. It’s impossible to get a taxi during rush hour."
+  - de: JOYCE
+    d: Isn’t that a bus stop over there?
+  - de: BILL
+    d: "\a\t\t\t\aYes ... Oh! There’s a bus now. We’ll have to run to catch it."
+  - de: JOYCE
+    d: Oh, no! We just missed it.
+  - de: BILL
+    d: "\a\t\t\t                 No problem. There’ll be another one in 10 minutes. L ANGUAGE NOTES •\
+      \ \a\t Should we … or …? Is a way of asking “Which is better?” “Should” is used to ask         \
+      \  • \aI sn’t that This is a negative question. The speaker expects an affirmative answer. It for\
+      \ an opinion. Note that we do not say “Will” here.                                         is used\
+      \ to check information. • \a Take a taxi or a bus? The word “or” signals a choice here. Notice the\
+      \ rising               • Bus stop is a compound noun, with the main stress on the first word. intonation\
+      \ on taxi (the first choice) and falling intonation on bus (the second choice). • Oh! is an exclamation\
+      \ used to express alarm or surprise. • Let’s (Let us) means “I think we should do this.” • Oh, no!\
+      \ is an expression used to express disappointment. • \a\t Rush hour is the time of day when most\
+      \ people are going to or from work. In most • \a\t We just missed it here means “We arrived a moment\
+      \ too late to get the bus.” American cities, rush hour is from about 7:30 to 9:00 a.m. and from\
+      \ about 4:30 to Notice the emphasis on “just” to show the very recent past. 6:30 p.m. Notice that\
+      \ “rush hour” is a compound noun, with the main stress on the first word.                      \
+      \                                                         • No problem here means “It doesn’t matter.”\
+      \ Pastimes and Activities"
+- num: 3-1
+  titulo: How Old Are You?
+  turnos:
+  - de: PATTY
+    d: "\a\t\t   \aI’m really excited for Aunt Mary’s surprise birthday party this afternoon! Aren’t you?"
+  - de: SUSAN
+    d: Yeah! How old is she?
+  - de: PATTY
+    d: "\a\t\t   She’ll be 55 on May 14 [fourteenth]."
+  - de: SUSAN
+    d: "\aWow! I didn’t know that my mom was older — she’s going to be 57 on September 2 [second]. Anyway,\
+      \ Aunt Mary’s going to be so surprised to see us all here!"
+  - de: PATTY
+    d: "\aI know! But we still have to get all the food set up before she gets here … OK! We’re all ready\
+      \ now. Shh! She’s here!"
+  - de: ALL
+    d: "Surprise! LANGUAGE NOTES • \aI ’m really excited … Notice the emphasis on “really.” “Really” is\
+      \ used to emphasize the   • \a\t Fourteenth Notice that we use “th” for ordinal numbers, starting\
+      \ with 4 [but first, adjective “excited” here.                                                 \
+      \                      second and third]. The stress is on the second syllable [fourTEENTH]. Compare\
+      \ this with “fortieth: 40th” [FORtieth]. • \a\t Birthday party Notice that the normal stress for\
+      \ a compound noun falls on the first element of the compound.                                  \
+      \                               • \a\t She’s going to be ... Notice how this is pronounced like\
+      \ “gonna be.” Instead of four syllables “go/ing/to/be” there  are three syllables “ga/na/be.” •\
+      \ \a\t Aren’t you? This negative tag is used to show that the speaker expects a positive answer.\
+      \ Patty assumes that Susan is also looking forward to the party. • \a\t She’ll be 55 Notice that\
+      \ “55” is stressed here. This detail answers the question “How old is she?”"
+- num: 3-2
+  titulo: At the Movies
+  turnos:
+  - de: BOB
+    d: "\a\t\t\a\t\aWe’d like two tickets for the 3:30 show, please."
+  - de: TICKET SALES
+    d: "\a\t Here you go. Enjoy the movie! [Inside the theater]"
+  - de: BOB
+    d: "\a\t\t\t\aWould you mind moving over one, so my friend and I can sit together?"
+  - de: WOMAN
+    d: No, not at all.
+  - de: BOB
+    d: "Thanks a lot! LANGUAGE NOTES • \a\t The 3:30 show Movies are shown at different times throughout\
+      \ the day. This refers to    • \a\t Moving over one Here “one” is short for “one seat.” the movie\
+      \ that starts at 3:30. Notice the emphasis on 3:30. • \aN o, not at all is a way of saying “No,\
+      \ I don’t mind” or “I will be glad to.” Notice the • Enjoy the movie! Notice how the intonation\
+      \ rises on movie. This is said in a friendly         answer to “Would you mind” is in the negative\
+      \ form. way, and is followed by an exclamation point. • \a\t Would you mind is a polite way to ask\
+      \ “Can you do something for me?” Notice the verb ends in “-ing.” Compare this structure to “Would\
+      \ you mind if I” plus a verb that ends in “-ed” (Would you mind if I opened the window?)."
+- num: 3-3
+  titulo: What Are You Good At?
+  turnos:
+  - de: SANDRA
+    d: So … what should we do?
+  - de: JULIE
+    d: "\a\t\t\aWell, I like to do arts and crafts, and I’m really good at drawing. What do you think?"
+  - de: SANDRA
+    d: "\a\t\a\t\aHmm … how about playing a board game? That would be more fun."
+  - de: JULIE
+    d: "\a\t\t                   OK. Let’s play Scrabble! I’m really good at spelling, too!"
+  - de: SANDRA
+    d: "\a\t\t                  Oh, yeah? We’ll see about that! LANGUAGE NOTES • \a So … Notice how the\
+      \ “o” sound is drawn out here, combined with the intonation, which            • \a\t How about is\
+      \ used to make a tentative suggestion. The speaker is introducing an idea and shows boredom.   \
+      \                                                                                    doesn’t want\
+      \ to sound too strong. • \a\t I’m really good at “Really” means “very” and is used to emphasize\
+      \ “good.” It goes before       • \t \aLet’s is used to make a strong suggestion. The speaker feels\
+      \ confident about the plan. the adjective. • \a\t Oh, yeah? We’ll see about that! “Oh, yeah?” is\
+      \ used in a joking way to show a bit of friendly • \a What do you Notice the pronunciation here\
+      \ — it sounds like “Whaddaya.”                               competition. Notice the emphasis on\
+      \ “that,” which refers back to “good at spelling.” • \a\t Hmm … is used to show that the speaker\
+      \ is thinking. It is also used to show that the speaker disagrees with an idea."
+- num: 3-4
+  titulo: What’s Your Favorite Sport?
+  turnos:
+  - de: PHIL
+    d: "\a\t\aWhat time is that soccer game on? I thought it started at noon."
+  - de: JACK
+    d: "\a\t\aWe must have had the wrong time. Oh, well … soccer’s not my favorite sport anyway. I much\
+      \ prefer basketball."
+  - de: PHIL
+    d: "\a\t\aOh, really? I thought your favorite sport was tennis! I’m a big fan of basketball, too."
+  - de: JACK
+    d: How about a game sometime?
+  - de: PHIL
+    d: "\a\t\aSure thing! Why don’t we go shoot some hoops now since the soccer game isn’t on?"
+  - de: JACK
+    d: "Excellent idea. Let’s go. LANGUAGE NOTES • \a\t What time is that soccer game on? means “When\
+      \ does the soccer game start?”               • \aI ’m a big fan of basketball is a way of saying\
+      \ “I like basketball very much” (“to be a “What time” plus something plus “on” is a common expression\
+      \ used to ask about the           fan of” is a casual expression used to describe something you\
+      \ really like). start time of a TV show or a movie. • \a\t How about a game here means “Let’s play\
+      \ a basketball game.” • \a\t I much prefer basketball here means “I like basketball a lot more than\
+      \ soccer.” Notice • Sure thing! This is a casual expression used to mean “OK.” how “much” is stressed\
+      \ to show that the speaker really likes basketball. • \a\t Shoot some hoops means to play an informal\
+      \ game of basketball. This is a casual • Oh, really? Notice the rising intonation on “really.” This\
+      \ shows that the speaker is expression used between friends. surprised. He thought that Jack liked\
+      \ tennis the best."
+- num: 3-5
+  titulo: A Night at the Theater
+  turnos:
+  - de: SHANNON
+    d: "\a\t\a\t\aWhat a fantastic performance! Thank you for inviting me to the musical."
+  - de: ELENA
+    d: "\a\t\t\aYou are welcome. I’m happy you enjoyed the show. The choreography of the dancers was incredible.\
+      \ It reminds me of when I used to dance."
+  - de: SHANNON
+    d: "\a\t\a\t\aI know! You were such a talented ballerina. Do you miss dancing?"
+  - de: ELENA
+    d: "\a\t\t\aOh, that’s very kind of you, Shannon. I do miss it sometimes. But I will always be a fan\
+      \ of the arts. That’s why I love going to musicals because it’s the perfect combination of song,\
+      \ dance and theater."
+  - de: SHANNON
+    d: "\a\t\aAbsolutely! I’m glad you are still an art fan too. Thank you for the invitation. It’s always\
+      \ a pleasure to attend an arts event with you and learn something new. LANGUAGE NOTES • \a\t You\
+      \ are welcome. Elena replies “You are welcome” in this dialogue. She could also say,   • \t\aGiving\
+      \ compliments in English often includes using superlatives (“the most …,” “the “Don’t mention it,”\
+      \ which is an example of downgrading. Downgrading a compliment             best …”). This is the\
+      \ best musical playing on Broadway! / What’s the most entertaining varies with culture. When in\
+      \ doubt, just say “You are welcome.”                              movie you’ve seen? However, compliments\
+      \ can also be given by using the construction “I’m a fan of …”: I’m a fan of the arts. / I’m a big\
+      \ fan of theater. / I’m a huge fan of this • \a\t When getting a compliment to someone (for example:\
+      \ “You were such a talented band. Notice the use of adjectives. ballerina”), you can either accept\
+      \ the compliment (“That’s very kind of you”) or downplay the compliment (“Oh, I wasn’t that good”)."
+- num: 3-6
+  titulo: Taking a Vacation
+  turnos:
+  - de: JULIE
+    d: "\aI just bought a ticket to New York City. I’m so excited to see the city!"
+  - de: SOPHIE
+    d: "\a\t\a\t\aGood for you! Traveling is so much fun. I love discovering new places and new people.\
+      \ When are you leaving?"
+  - de: JULIE
+    d: "\a\t\t\aNext week. I’m taking the red eye. It was cheaper. Hopefully, I’ll be able to sleep on\
+      \ the plane."
+  - de: SOPHIE
+    d: "I\a wish I could go with you! New York City is a magical place. You will have so much fun."
+  - de: JULIE
+    d: "\aI hope so. I’m going to visit my brother who lives there. I will stay for a week and then take\
+      \ the train down to Washington, D.C."
+  - de: SOPHIE
+    d: "\a\t\t\aThat sounds like a great vacation. I’m looking forward to a week at the beach for my summer\
+      \ vacation. I just want to relax. LANGUAGE NOTES •   T\aicket can refer to many different types\
+      \ of transportation (metro, bus, train, plane, etc.).   • \a\t When discussing airplane travel,\
+      \ a red eye is a flight that leaves at night to arrive early In general, you can guess the means\
+      \ of transportation by the context.                              the next morning. This is in reference\
+      \ to how red your eyes become when you don’t get a full night’s sleep."
+- num: 3-7
+  titulo: At the Pet Store
+  turnos:
+  - de: CONNIE
+    d: "\a\t   Oh! What a beautiful cat. What do you think?"
+  - de: GARY
+    d: "\aI think I’d rather get a dog. Dogs are more loyal than cats."
+  - de: CONNIE
+    d: "\a\t\t\aYes, but they’re so much work! Would you be willing to walk it every single day? And clean\
+      \ up after it?"
+  - de: GARY
+    d: "\aHmm. Good point. What about a bird? Or a fish?"
+  - de: CONNIE
+    d: "\a\t\a\t\aWe’d have to invest a lot of money in a cage or a fish tank. And I don’t really know\
+      \ how to take care of a bird or a fish!"
+  - de: GARY
+    d: "\a\t\t      Well, we’re obviously not ready to get a pet yet."
+  - de: CONNIE
+    d: "\a\t\t\aYeah, you’re right. Let’s go grab some coffee and talk about it. LANGUAGE NOTES • \a\t\
+      \ Oh! What a beautiful cat “Oh!” is used to show surprise or excitement. “What a …” is   • \a\t\
+      \ Take care of This phrase is used with animals, people and things. It can mean an expression that\
+      \ means “I think this is a very …” “What a(n) …” is followed by an         “watch a child while\
+      \ her parents are away,” “feed and house someone or adjective, which is usually emphasized. Notice\
+      \ the emphasis on “beautiful” here.            something,” or “make sure things work properly.”\
+      \ (I always take care of my baby brother./ I take care of my bird by feeding it and cleaning its\
+      \ cage./ I need to take • \a\t Dogs are more loyal than cats. Two things are being compared here\
+      \ (dogs and care of the broken sink.) cats). Notice the structure of the sentences: (noun/s) plus\
+      \ “is/are more” plus (adjective) plus “than” plus (noun/s). The nouns and the adjective are content\
+      \ words   • \a\t Yeah, you’re right. Notice the pronunciation of this expression — the words all\
+      \ here, so they are all emphasized.                                                           blend\
+      \ together here. This casual expression is used to agree with someone that you know well. • Every\
+      \ single day Notice that each word here is stressed. The speaker wants to make a point, so she emphasizes\
+      \ each word equally. “Every single day” is a lot! • Good point here means “I agree with you.”"
+- num: 3-8
+  titulo: Giving Your Opinion
+  turnos:
+  - de: JAKE
+    d: "\a\t\aWhere should we take a vacation this year? Let’s decide soon."
+  - de: MELISSA
+    d: "\aWell, I’d like to go somewhere warm. How about the beach? Or we could rent a cabin on the lake."
+  - de: JAKE
+    d: "\a\t\a\t\aYou want to go to the beach, again? I want to ski this winter. How about a compromise?\
+      \ What about traveling to the Alps in Europe next April? We can find a ski resort on a lake."
+  - de: MELISSA
+    d: "\a\t\a\t\aOh, we’ve never been to Europe before! But I don’t know if it will be sunny and warm\
+      \ then. I need to do some research first. That will help me make up my mind. LANGUAGE NOTES • \a\
+      \ Decide is a useful verb to express choice. The idiom “to make up my mind” also          • \a\t\
+      \ Many verbs express opinions: to think / to believe / to suppose / to assume, etc. They means “to\
+      \ decide”: “There are so many choices in this menu. It’s going to take awhile        are not all\
+      \ synonymous. For example, “to suppose” and “to assume” express that the to make up my mind/decide.”\
+      \ You can finish this sentence with either the idiom or the        speaker has a preconceived idea:\
+      \ He came back late from work, so I assumed that traffic verb “decide.”                        \
+      \                                                       was bad. /I suppose that may not have been\
+      \ the case, and that he might just have had a lot of work. • \aH ow about This phrase presents an\
+      \ alternative. This phrase can be followed by a subject plus a conjugated verb or by a noun: How\
+      \ about we go swimming? / How about a movie tonight?"
+- num: 3-9
+  titulo: Hobbies
+  turnos:
+  - de: RYAN
+    d: "\a\t\t     I’m so happy this week of midterm exams is finished."
+  - de: TYLER
+    d: "\a\a\t\t\aSame here. I’m looking forward to relaxing in the mountains this weekend. I’ve planned\
+      \ a little hike in the woods. And I’m gonna take a canoe trip down the river if the weather cooperates."
+  - de: RYAN
+    d: "\a\t\a\t\aOh, fun! I’m going to Michigan. I’m taking my camera because fall is coming fast. The\
+      \ leaves are already turning all shades of red and orange. It will be awesome."
+  - de: TYLER
+    d: "\a\t\aNext time you go there, I’ll join you. I’ve heard Michigan is a great place to go canoeing.\
+      \ LANGUAGE NOTES • \a\t Midterm Students at universities in the United States often take exams midsemester,\
+      \      • \a\t Awesome: is a colloquial way of saying “excellent,” “cool,” “great.” Last night’s\
+      \ rock around October or March of every year. These exams are called midterms. Exams at the    \
+      \      concert was awesome. end of the semester are called finals or final exams and are usually\
+      \ in May. • \a\t Gonna is a colloquial form of “I’m going to.” Other similar constructions include\
+      \ “wanna” [want to] or “hafta” [have to]. These are examples of transcriptions of spoken English\
+      \ and should not be used in a formal context. Some of these examples are now seen in text messages\
+      \ as a means of shortening sentences."
+- num: 3-10
+  titulo: Weddings
+  turnos:
+  - de: ANGELICA
+    d: "\aDoesn’t the bride look beautiful in that wedding dress?"
+  - de: MARIA
+    d: "\a\a\a\a\t\aYes. She looks amazing. And the groom is so romantic. I just heard the story of how\
+      \ they got engaged! He proposed to her during a candlelight dinner in London. Did you know that\
+      \ was where they went to school?"
+  - de: ANGELICA
+    d: "\a\t\a\a\a\a\aOh? Wonderful. And the honeymoon! What a great idea! Most people just go to the\
+      \ beach for a week after they tie the knot. But they plan on heading to California and cruising\
+      \ the coast on their motorcycle."
+  - de: MARIA
+    d: "\a\t\a\aReally! What a fantastic idea. This is by far the best wedding I’ve ever been to. LANGUAGE\
+      \ NOTES • \t\aDoesn’t …? When you have a negative question, the expected answer is “yes.” As   \
+      \            \t\t   a) \aTo indicate a very recent past (I just heard the story). When used to convey\
+      \ such, it expresses the exact opposite of what is being conveyed (i.e., the bride DOES        \
+      \        time, “just” is commonly used with a simple past verb because the action is look absolutely\
+      \ beautiful).                                                                          complete.\
+      \ Sometimes it can also be used with the present perfect (He’s just finished writing a book). •\
+      \ \a\t Listen to the stress on honeymoon. There are three syllables in “honeymoon,” with the stress\
+      \ on the first syllable [HO-ney-moon]. This content word is culturally important, so   \t\t   b)\
+      \ \aTo indicate contrast or emphasis (Most people just go to the beach). In that it’s emphasized:\
+      \ It means a trip or vacation taken by a newly married couple.                       case, “just”\
+      \ can be replaced by “simply” and emphasize the word it relates to (a verb, adjective or other adverb)\
+      \ by denoting contrast. Compare the following • Tie the knot is an informal way of saying “get married.”\
+      \ sentences: “They just got married yesterday” (adverb of time). “The wedding • \a\t Can you find\
+      \ and explain the two usages of just in this dialogue? “Just” is an adverb               reception\
+      \ was just wonderful” (adverb of emphasis). that can be used in two different ways:"
+- num: 3-11
+  titulo: Giving Advice
+  turnos:
+  - de: LAYLA
+    d: "\a\a\a\a\aThanks for meeting with me during your lunch hour. I appreciate it."
+  - de: MONICA
+    d: "\aNo problem. I’m happy to help. What’s going on?"
+  - de: LAYLA
+    d: "\aOh you know, the usual. Should I take this new job? Or do I stick with my current one?"
+  - de: MONICA
+    d: "\a\t\aWell, I think it’s time for a change, don’t you? They pay you late and you are unhappy."
+  - de: LAYLA
+    d: Do you really think so?
+  - de: MONICA
+    d: "\aI know so. And I’ve been listening to you complain for over a year now. Trust me. Take the job.\
+      \ What do you have to lose? LANGUAGE NOTES • \t\aIn formal conversation, giving advice is often\
+      \ suggested through modals: ought to/        • \t\aNotice the use of command forms: Take the job.\
+      \ /Trust me./ Go for it! The command should / could / If I were you. In informal conversations people\
+      \ tend to use words such       form can be used to gently persuade someone. as I think that/ I feel\
+      \ that/ in my opinion. • \t\aListen for the emphasis on I know so and Trust me. These common phrases\
+      \ can be used to convey both positive and negative emotions. “I know so” conveys a deep belief or\
+      \ certainty. “To know” shows more certainty than “to think.” PHOTO CREDITS 1-1: Blend Images/Inmagine.\
+      \ 1-2: © Robert Fried / Alamy. 1-3: © Tetra Images / Alamy. 1-4: TipsImages /SuperStock. 1-5: ©\
+      \ ONOKY - Photononstop / Alamy. 1-6: © moodboard / Alamy. 1-7: © Cultura Creative / Alamy. 1-8:\
+      \ © Corbis RF/Alamy. 1-9: © Image Source/Corbis. 2-1: © Ned Fisk/Blend Images/Alamy. 2-2: © Glow\
+      \ Aisia RF/Alamy. 2-3: Hemera/Thinkstock. 2-4: iStockphoto/Thinkstock. 2-5: iStockphoto/ Thinkstock.\
+      \ 2-6: Suprijono Suharjoto/SuperFusion/ Superstock. 2-7: © David R. Frazier Photography, inc/Alamy.\
+      \ 2-8: Stockbroker/Purestock/ Superstock. 2-9: Yamini Chao/Thinkstock. 2-10: © amanaimages RF/ Agefotostock.\
+      \ 3-1: © Noel Hendrickson/Image Source. 3-2: Belinda Images / SuperStock. 3-3: © SuperStock. 3-4:\
+      \ © Getty Images/ Thinkstock. 3-5: Rolf Bruderee / Masterfile. 3-6: © Fancy / Alamy. 3-7: Blend\
+      \ Images / SuperStock. 3-8: Comstock/Thinkstock. 3-9: © Somos Images/Alamy. 3-10: © Fancy/Alamy.\
+      \ 3-11: © UberFoto / Alamy. U N I T E D S TAT E S D E PA R T M E N T O F S TAT E Embassy of the\
+      \ United States of America   B U R E A U O F I N T E R N AT I O N A L I N F O R M AT I O N P R O\
+      \ G R A M S B U R E A U O F E D U C AT I O N A L A N D C U LT U R A L A F FA I R S"

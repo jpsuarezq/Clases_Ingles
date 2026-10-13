@@ -1,0 +1,296 @@
+# Corpus de contenido para tools/generar-datos.py
+#
+# El CALENDARIO decide lo estructurado (habilidad, fonema, base fija) — eso no va acá.
+# Este archivo aporta solo lo que exige redacción: ítems, vocabulario, coloquial y cuerpo.
+#
+# Fuente de los estímulos: Everyday Conversations, US Dept. of State, dominio público.
+# Ver tools/corpus/FUENTES.md. Las preguntas, explicaciones y el cuerpo son originales.
+
+1:
+  objetivo: "Detectar dónde cae el acento en inglés y por qué moverlo rompe la palabra."
+  stimulus: "Sorry, I'm a bit knackered — can we push this to tomorrow?"
+  items:
+    - tipo: listening
+      instruccion: "Escuchá (o leé) la frase dos veces antes de responder."
+      opciones:
+        - "Que lo ayudes a terminar el trabajo hoy."
+        - "Reprogramar la reunión para mañana."
+        - "Que le pases un café."
+        - "Que le expliques la tarea otra vez."
+      correcta: B
+      por_que: >-
+        La petición está en «push this to tomorrow». «Knackered» es solo el motivo
+        (está cansado), no lo que pide. Pide con cortesía en vez de mandar: en inglés
+        británico eso es lo normal en el trabajo, y sonar directo de más se lee como
+        grosero.
+    - tipo: listening
+      instruccion: "¿En qué sílaba cae el acento? Marcá una."
+      stimulus: "tomorrow"
+      opciones:
+        - "to-MOR-row (segunda)"
+        - "TO-mor-row (primera)"
+        - "to-mor-ROW (tercera)"
+        - "Todas igual, como en español."
+      correcta: A
+      por_que: >-
+        Es la segunda. En español la regla de acentuación la podés deducir de la
+        terminación; en inglés el acento es parte de la palabra y no se deduce de nada.
+        «Tomorrow» se acentúa en el medio y nadie lo escribió con tilde para avisarte.
+    - tipo: speaking
+      instruccion: "Decí las tres en voz alta, marcando la sílaba larga. Una sola línea."
+      stimulus: "record (verbo) · record (sustantivo) · present (verbo)"
+      opciones: []
+      correcta: null
+      por_que: >-
+        re-CORD «grabar» contra PRE-sent «documento», y pre-SENT «presentar» contra
+        PRE-sent «regalo». Mover el acento en inglés no hace la palabra más extranjera:
+        la convierte en otra palabra. Ese es todo el argumento del día.
+  coloquial:
+    - {expr: "push it to…", uk: "push it to", us: "reschedule", sentido: "Mover algo de fecha"}
+    - {expr: "I'm beat", uk: "knackered", us: "beat", sentido: "Cansadísimo (la versión americana)"}
+  vocabulario:
+    - {palabra: "knackered", fuente: material, uk: knackered, us: beat,
+       frase: "Sorry, I'm a bit knackered — can we push this to tomorrow?",
+       sentido: "Cansadísimo, agotado"}
+    - {palabra: "push it to…", fuente: material, uk: "push it to", us: reschedule,
+       frase: "Can we push this to tomorrow?", sentido: "Mover algo de fecha"}
+    - {palabra: "sorry", fuente: material, uk: sorry, us: "excuse me",
+       frase: "Sorry, do you mind if I sit here?",
+       sentido: "Disculpa — suaviza casi cualquier cosa"}
+    - {palabra: "record (v)", fuente: frecuencia, uk: "re-CORD", us: "re-CORD",
+       frase: "I'll record the meeting so you can listen later.",
+       sentido: "Grabar. El acento va en la segunda."}
+    - {palabra: "present (v)", fuente: frecuencia, uk: "pre-SENT", us: "pre-SENT",
+       frase: "I'm presenting the results on Friday.",
+       sentido: "Presentar. Mismo spelling que el sustantivo, acento distinto."}
+    - {palabra: "about", fuente: frecuencia, uk: "a-BOUT", us: "a-BOUT",
+       frase: "It'll take about five minutes.",
+       sentido: "Aproximadamente. Acento en la segunda."}
+  cuerpo: |
+    En español la acentuación se deduce: si la palabra termina en vocal, n o s, el acento va en la
+    penúltima sílaba salvo tilde. Tenés una regla y la aplicás.
+
+    En inglés no hay regla. **El acento es parte de la palabra**, igual que el número de sílabas o las
+    letras que la componen. No se deduce de la ortografía ni del final. Por eso «tomorrow» no lleva
+    tilde y aun así se acentúa en el medio.
+
+    Eso tiene una consecuencia que te va a servir las 13 semanas: **un acento mal puesto no te hace
+    sonar exótico, te hace sonar otra palabra.** *re-CORD* es grabar; *PRE-sent* es un documento. No hay
+    segunda lectura posible.
+
+    Es el error raíz del hispanohablante, y va primero por eso — no por ser el más difícil, sino porque
+    todo lo demás se apoya acá. La sílaba acentuada es la que se **estira**, y todas las demás se
+    aplastan. Sin esa jerarquía no hay schwa que valga, ni function words que se reduzcan, ni ritmo que
+    se escuche.
+
+2:
+  objetivo: "Escribir tres oraciones donde el acento caiga donde corresponde, y detectar el error en un texto ajeno."
+  items:
+    - tipo: writing
+      instruccion: "Mirá este texto escrito por un hispanohablante y encontrá dónde está el acento mal puesto."
+      stimulus: "I PREsent the RESults toMOrrow in the ofFICE."
+      opciones:
+        - "No hay ningún error: se entiende igual."
+        - "«present» como verbo va pre-SENT, no PRE-sent."
+        - "«tomorrow» se acentúa al final: to-mor-ROW."
+        - "«office» lleva tilde en inglés: of-FÍCE."
+      correcta: B
+      por_que: >-
+        «Present» como verbo se acentúa en la segunda sílaba — PREsent es el sustantivo, el documento.
+        El resto está bien: «tomorrow» va en el medio y «office» es monosilábica... no: es dos, of-FICE,
+        y en inglés no se marca con tilde nunca.
+    - tipo: writing
+      instruccion: "Reescribí la oración corrigiendo solo lo que haga falta. Una línea."
+      stimulus: "We discuss the budget on FRIday."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «Discuss» es monosilábica: no lleva acento, se dice sin cortes. Y «FRIday» sí se acentúa en
+        la primera. Si decís "di-SKUSS" estás aplicando la regla española de que las esdrújulas se
+        acentúan siempre.
+    - tipo: writing
+      instruccion: "Escribí tres oraciones de trabajo con verbos que cambian de sentido al mover el acento."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Los pares son REcord/re-CORD, PREsent/pre-SENT, INcrease/in-CREASE, PERmit/per-MIT. Con cualquiera
+        de ellos alcanza: la clave es que escribas la oración y después la digas en voz alta marcando la
+        sílaba.
+  writing:
+    tarea: task_2
+    consigna: "Some people say that working from home improves productivity. Others disagree. Discuss both views and give your own opinion."
+    min_palabras: 250
+  coloquial:
+    - {expr: "run it by me", uk: "run it past me", us: "run it by me",
+       sentido: "Mostrármelo antes de mandarlo"}
+    - {expr: "touch base", uk: "touch base", us: "touch base",
+       sentido: "Coordinar rápido, normalmente por llamada"}
+  vocabulario:
+    - {palabra: "deadline", fuente: frecuencia, uk: "DED-line", us: "DED-line",
+       frase: "The deadline is Friday, so we need to move fast.",
+       sentido: "Fecha límite. Acento en la primera."}
+    - {palabra: "agenda", fuente: frecuencia, uk: "a-GEN-da", us: "a-GEN-da",
+       frase: "Let's keep to the agenda, we're short on time.",
+       sentido: "Orden del día. Acento en la segunda, no en la primera."}
+    - {palabra: "update", fuente: frecuencia, uk: "UP-date", us: "UP-date",
+       frase: "I'll send you an update tomorrow morning.",
+       sentido: "Como sustantivo se acentúa arriba; como verbo, up-DATE."}
+    - {palabra: "prefer", fuente: frecuencia, uk: "pre-FER", us: "pre-FER",
+       frase: "I'd prefer to start earlier if that's okay.",
+       sentido: "Preferir. Acento en la segunda."}
+    - {palabra: "record (n)", fuente: material, uk: "RE-cord", us: "RE-cord",
+       frase: "He broke the record for the fastest turnaround.",
+       sentido: "Récord, el documento o la marca."}
+    - {palabra: "present (n)", fuente: material, uk: "PRE-sent", us: "PRE-sent",
+       frase: "She unwrapped the present under the tree.",
+       sentido: "Regalo. Acento en la primera."}
+  cuerpo: |
+    El acento en inglés no es un detalle de pronunciación: **a veces cambia la palabra**. *PRE-sent* es un
+    documento o un regalo; *pre-SENT* es presentar. El spelling es idéntico.
+
+    Para escribir, eso se traduce en algo concreto: **no podés confiar en cómo se ve la palabra**. Un
+    hispanohablante lee *present* y piensa "esdrújula, tilde implícita en la primera" — y en inglés eso
+    solo vale cuando es el sustantivo.
+
+    El truco de hoy es que **antes de escribir la digas**. Si la pronunciación sale mal, el error de
+    escritura casi nunca aparece: el que escribe "we discuss" y lo dice "di-SKUSS" nunca se entera,
+    porque en el papel las dos cosas se ven igual.
+
+3:
+  objetivo: "Producir en voz alta las tres formas sin que el acento del español se cuele."
+  items:
+    - tipo: speaking
+      instruccion: "Decí la frase tres veces, cada vez más rápido. Grabate la tercera."
+      stimulus: "Could you record the presentation tomorrow?"
+      opciones: []
+      correcta: null
+      por_que: >-
+        Hay tres acentos en la oración: pre-SEN-ta-TION... no: pre-sen-TA-tion, re-CORD y to-MOR-row.
+        Ninguno es el primero de la palabra excepto «record». Si decís «pre-SENT-ation» cambiaste el
+        sentido del verbo.
+    - tipo: speaking
+      instruccion: "Escuchá cómo suena y elegí qué escuchaste."
+      stimulus: "an INcrease / an inCREASE"
+      opciones:
+        - "«Un aumento» — el sustantivo, acento al principio."
+        - "«Aumentar» — el verbo, acento al final."
+        - "Son exactamente lo mismo, el acento no cambia nada."
+        - "Depende del país: en Reino Unido no cambia."
+      correcta: A
+      por_que: >-
+        El primero, INcrease, es el sustantivo: «an increase in sales». inCREASE es el verbo. Es el
+        mismo truco de record/present, y es la razón por la que este bloque va primero — si no dominás
+        esto, ningún minimal pair te va a servir después.
+    - tipo: speaking
+      instruccion: "Formulá una pregunta de trabajo usando un par que cambie de sentido. Una línea."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Algo como «Did you record the meeting?» contra «What's on the record?». Lo que importa no es el
+        vocabulario: es que la oración obligue a acentuar distinto según lo que quieras decir.
+  coloquial:
+    - {expr: "my bad", uk: "my fault", us: "my bad",
+       sentido: "Culpa mía — informal, se usa hablando"}
+    - {expr: "sounds good", uk: "sounds good", us: "sounds good",
+       sentido: "Me parece bien, la forma normal de cerrar"}
+  vocabulario:
+    - {palabra: "increase", fuente: frecuencia, uk: "INcrease / inCREASE", us: "INcrease / inCREASE",
+       frase: "We saw a big increase last quarter.",
+       sentido: "Sustantivo arriba, verbo abajo. Mismo spelling."}
+    - {palabra: "permit", fuente: frecuencia, uk: "PERmit / per-MIT", us: "PERmit / per-MIT",
+       frase: "They don't permit phones in the lab.",
+       sentido: "El permiso es PERmit; permitir es per-MIT."}
+    - {palabra: "contract", fuente: frecuencia, uk: "CON-tract / con-TRACT", us: "CON-tract / con-TRACT",
+       frase: "We signed the contract last week.",
+       sentido: "El contrato es CONtract; contraer es con-TRACT."}
+    - {palabra: "object", fuente: frecuencia, uk: "OB-ject / ob-JECT", us: "OB-ject / ob-JECT",
+       frase: "I didn't object to the plan.",
+       sentido: "El objeto es OBject; objetar es ob-JECT."}
+    - {palabra: "record (v)", fuente: material, uk: "re-CORD", us: "re-CORD",
+       frase: "Can you record this call for me?",
+       sentido: "Grabar. Acento en la segunda."}
+    - {palabra: "presentation", fuente: material, uk: "pre-sen-TA-tion", us: "pre-sen-TA-tion",
+       frase: "I've got a presentation at three.",
+       sentido: "Acento en la tercera sílaba. No en la primera."}
+  cuerpo: |
+    Esta es la etapa donde se produce, no donde se escucha. **Decirlo en voz alta es el trabajo de hoy**,
+    y es el que más resistencia va a tener: tu boca ya sabe acentuar en español y va a insistir.
+
+    La regla que te sirve: **en inglés las palabras casi nunca se acentúan en la primera sílaba salvo que
+    sean monosilábicas**. *Record*, *present*, *increase* como monosilábicos van arriba; los de dos o tres
+    sílabas se van moviendo.
+
+    Si te trabás es buena señal — significa que estás notando algo que antes dabas por obvio. **No lo
+    aplanes**: la fluidez que viene después se construye sobre esta fricción, no reemplazándola.
+
+4:
+  objetivo: "Leer un texto corto y detectar dónde el acento cambiaría el sentido."
+  items:
+    - tipo: reading
+      instruccion: "Leé el texto y respondé."
+      stimulus: "We present the present results. The record shows we recorded a record increase."
+      opciones:
+        - "La oración es un juego de palabras y está bien formada."
+        - "Está mal: no se pueden usar dos veces en la misma oración."
+        - "Falta una coma entre «present» y «present»."
+        - "El segundo «record» está mal escrito."
+      correcta: A
+      por_que: >-
+        Es correcta y es exactamente el punto del día. «Present the present results» usa el verbo y el
+        sustantivo en la misma oración, y «recorded a record increase» hace lo mismo. En inglés se lee
+        bien porque el acento las separa; en español no podrías, porque las dos se pronunciarían igual.
+    - tipo: reading
+      instruccion: "¿Cuántas palabras del texto cambian de significado según dónde caiga el acento?"
+      stimulus: "We present the present results. The record shows we recorded a record increase."
+      opciones:
+        - "Dos: present y record."
+        - "Una sola: record."
+        - "Ninguna — el acento no cambia significado en inglés."
+        - "Cuatro: las cuatro apariciones."
+      correcta: A
+      por_que: >-
+        Dos pares distintos, cuatro apariciones. «Present» y «record» son los sustantivos/verbos que
+        cambian. Es más frecuente de lo que parece: los cinco pares del día 3 (increase, permit,
+        contract, object) funcionan igual.
+    - tipo: reading
+      instruccion: "Subrayá en tu copia las sílabas acentuadas. Decí el texto en voz alta una vez."
+      stimulus: "We present the present results. The record shows we recorded a record increase."
+      opciones: []
+      correcta: null
+      por_que: >-
+        pre-SENT the PRE-sent re-SULTS. re-CORD shows we re-CORded a RE-cord in-CREASE. Si al leer en
+        voz alta te sale distinto de cómo lo escribirías, ahí está el error que este bloque busca.
+  coloquial:
+    - {expr: "go over", uk: "go over", us: "go over",
+       sentido: "Repasar o revisar algo con alguien"}
+    - {expr: "as per", uk: "as per", us: "as per",
+       sentido: "Según — más formal, se usa en mails"}
+  vocabulario:
+    - {palabra: "turnover", fuente: frecuencia, uk: "TURN-o-ver", us: "TURN-o-ver",
+       frase: "Staff turnover has been high this year.",
+       sentido: "Rotación de personal. También: facturación. Acento en la primera."}
+    - {palabra: "outstanding", fuente: frecuencia, uk: "out-STAND-ing", us: "out-STAND-ing",
+       frase: "There are three outstanding invoices.",
+       sentido: "Pendiente de pago — y también: excelente. Acento en la segunda."}
+    - {palabra: "refund", fuente: frecuencia, uk: "RE-fund", us: "RE-fund",
+       frase: "They gave me a full refund.",
+       sentido: "El reembolso es REfund; devolver dinero es re-FUND."}
+    - {palabra: "download", fuente: frecuencia, uk: "DOWN-load", us: "DOWN-load",
+       frase: "Can you download the file?",
+       sentido: "Sustantivo y verbo se acentúan igual acá — es una de las excepciones."}
+    - {palabra: "increase (n)", fuente: material, uk: "INcrease", us: "INcrease",
+       frase: "We recorded a record increase.",
+       sentido: "Aumento, el sustantivo."}
+    - {palabra: "present (n)", fuente: material, uk: "PRE-sent", us: "PRE-sent",
+       frase: "We present the present results.",
+       sentido: "Los resultados presentes — el adjetivo/sustantivo."}
+  cuerpo: |
+    Leer en voz alta es la prueba de fuego del acento léxico. **El texto se ve igual escrito bien o mal**,
+    así que el papel no te avisa. Solo la voz.
+
+    Fijate en cómo «We present the present results» funciona en inglés y no funcionaría en español: las
+    dos *present* se escriben igual y se pronuncian distinto. Si el acento se cae, la oración se vuelve
+    ambigua de la peor manera — se sigue entendiendo, pero suena a error.
+
+    **Es la última etapa de este bloque.** Mañana empieza schwa: la sílaba no acentuada se apaga. Y eso
+    solo tiene sentido si hoy quedó claro qué sílaba **no** se apaga.

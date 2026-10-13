@@ -210,11 +210,22 @@ def validar_registro(path: Path, datos: dict | None, scoreables: int | None, err
         err(errors, "registro.md: la nota libre está vacía")
 
 
-def main():
+def main(argv):
     raiz = Path(__file__).resolve().parent.parent
-    carpetas = sorted((raiz / "ejercicios").glob("dia-*"))
+    # Acepta rutas explícitas; si no se pasan, valida todo ejercicios/.
+    # Sin esto, `validate-schema.py ejercicios/dia-007/` ignora la ruta en silencio
+    # y valida todo el directorio igual — el usuario cree que validó UNO.
+    if len(argv) > 1:
+        carpetas = [Path(a).resolve() if Path(a).name.startswith("dia-")
+                    else Path(a).resolve().parent
+                    for a in argv[1:]]
+        carpetas = [c if c.is_dir() else c.parent for c in carpetas]
+    else:
+        carpetas = sorted((raiz / "ejercicios").glob("dia-*"))
+
+    carpetas = [c for c in carpetas if c.is_dir()]
     if not carpetas:
-        print("no hay carpetas en ejercicios/", file=sys.stderr)
+        print("no hay carpetas que validar", file=sys.stderr)
         return 1
 
     fallos = 0
@@ -241,4 +252,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(sys.argv))
