@@ -1,0 +1,304 @@
+<!doctype html>
+<!--
+  GENERADO por tools/generar-ejercicio.py — NO EDITAR A MANO (ADR 0001).
+  Día 12 · fuente: datos.md · formato B, único los 90 días (#14).
+
+  Sin servidor, sin red, sin dependencias: doble click y abre.
+-->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Día 12 · reading</title>
+<style>
+  :root{
+    --ink:#14181f; --muted:#5b6472; --line:#dfe3ea; --bg:#f6f7f9;
+    --ok:#0a7d4d; --ok-bg:#e7f6ee; --no:#b3261e; --no-bg:#fdeceb;
+    --acc:#1a5cff; --acc-bg:#eaf0ff; --warn:#8a5a00; --warn-bg:#fdf3e0;
+    --uk:#0b5394; --us:#8a2be2;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+  .tag{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:3px 8px;border-radius:99px;background:var(--acc-bg);color:var(--acc)}
+  .tag.uk{background:#e3edfa;color:var(--uk)} .tag.us{background:#f3e8fb;color:var(--us)}
+  .tag.mat{background:#e7f6ee;color:var(--ok)} .tag.fre{background:var(--warn-bg);color:var(--warn)}
+  .stereo{font-style:italic;color:var(--muted)}
+  .say{border:0;background:none;cursor:pointer;font-size:1.05rem;padding:2px 7px;border-radius:7px;color:var(--acc);line-height:1}
+  .say:hover{background:var(--acc-bg)}
+  button.ans{all:unset;display:block;width:100%;cursor:pointer;position:relative;padding:13px 46px 13px 15px;border:1.5px solid var(--line);border-radius:11px;background:#fff;margin:0 0 9px;transition:.12s}
+  button.ans:hover{border-color:var(--acc);background:var(--acc-bg)}
+  button.ans[data-state="ok"]{border-color:var(--ok);background:var(--ok-bg)}
+  button.ans[data-state="no"]{border-color:var(--no);background:var(--no-bg)}
+  button.ans .k{font-weight:700;margin-right:.5em;opacity:.55}
+  button.ans[data-sel]:not([data-state="ok"]):not([data-state="no"]){border-color:var(--acc);border-width:2.5px;background:#f2f6ff;box-shadow:0 0 0 3px rgba(26,92,255,.14)}
+  button.ans[data-sel] .k{opacity:1}
+  button.ans[data-sel]:not([data-state="ok"]):not([data-state="no"]) .k{background:var(--acc);color:#fff;border-radius:6px;padding:1px 8px}
+  button.ans .sel{position:absolute;right:13px;top:50%;transform:translateY(-50%);color:var(--acc);font-weight:700;font-size:.85em;white-space:nowrap}
+  .fb{border-radius:11px;padding:14px 16px;margin-top:12px;font-size:.95em;display:none}
+  .fb.on{display:block}
+  .fb.ok{background:var(--ok-bg);border:1px solid #bfe6d3}
+  .fb.no{background:var(--no-bg);border:1px solid #f5c6c2}
+  .fb h4{margin:0 0 6px;font-size:1em}
+  .fb p{margin:.4em 0}
+  .q{font-size:1.12em;font-weight:650;margin:0 0 4px}
+  .prompt{background:#fff;border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:0 11px 11px 0;padding:14px 16px;margin:0 0 14px}
+  .cue{color:var(--muted);font-size:.9em;margin:0 0 12px}
+  fieldset{border:0;border-top:1px solid var(--line);padding:18px 0 4px;margin:0}
+  fieldset:first-of-type{border-top:0;padding-top:0}
+  textarea.prod{width:100%;min-height:74px;border:1.5px solid var(--line);border-radius:11px;padding:12px 14px;font:inherit;resize:vertical;background:#fff}
+  textarea.prod:focus{outline:none;border-color:var(--acc)}
+  input,select{font:inherit;border:1.5px solid var(--line);border-radius:8px;padding:6px 9px;background:#fff}
+  input:focus,select:focus{outline:none;border-color:var(--acc)}
+  .hdr{max-width:1180px;margin:0 auto;padding:26px 18px 6px}
+  .hdr h1{font-size:1.45em;margin:0 0 2px}
+  .base{display:flex;flex-wrap:wrap;gap:8px;background:#fff;border:1px solid var(--line);border-radius:13px;padding:12px 15px;margin:16px 0 22px;align-items:center;font-size:.92em}
+  .panel{background:#fff;border:1px solid var(--line);border-radius:13px;padding:18px 20px;position:sticky;top:20px}
+  .panel h3{margin:0 0 6px;font-size:.82em;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+  .panel p{margin:.5em 0}
+  .vocab{font-size:.9em}
+  .vocab div{margin:0 0 9px}
+  .reg{max-width:1180px;margin:26px auto 60px;padding:0 18px}
+  .regbox{background:#fff;border:1px solid var(--line);border-radius:13px;padding:18px 20px}
+  .regrow{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:0 0 12px;font-size:.92em}
+  .regrow label{display:flex;gap:7px;align-items:center}
+  pre.yaml{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:13px 15px;font:12.5px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;overflow:auto;max-height:290px;white-space:pre;color:var(--ink)}
+  .btn{all:unset;cursor:pointer;font-weight:700;font-size:.9em;padding:9px 18px;border-radius:9px;background:var(--ink);color:#fff;text-align:center}
+  .btn.ghost{background:#fff;color:var(--ink);border:1.5px solid var(--line)}
+  @media (max-width:860px){.split{grid-template-columns:1fr !important}.panel{position:static}}
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <span class="tag">Día 12 de 90 · Semana 2</span>
+  <h1>reading</h1>
+  <p class="cue" id="objetivo"></p>
+  <div class="base" id="base"></div>
+</div>
+
+<div class="split" style="display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:start;max-width:1180px;margin:0 auto;padding:0 18px">
+  <div id="items"></div>
+  <aside class="panel">
+    <h3>Por qué</h3>
+    <div id="porque"></div>
+    <hr style="border:0;border-top:1px solid var(--line);margin:14px 0">
+    <h3>Coloquial · UK ↔ US</h3>
+    <div id="coloquial"></div>
+    <hr style="border:0;border-top:1px solid var(--line);margin:14px 0">
+    <h3>Anki · 6 cards de hoy</h3>
+    <div class="vocab" id="vocab"></div>
+  </aside>
+</div>
+
+<div class="reg">
+  <div class="regbox">
+    <h3 style="margin:0 0 4px;font-size:.82em;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)">Registro del día</h3>
+    <p class="cue">Completá y copiá. El HTML no puede escribir archivos desde el navegador, así que pegalo en <code>registro.md</code>.</p>
+    <div class="regrow" id="regcampos"></div>
+    <pre class="yaml" id="yaml"></pre>
+    <div style="display:flex;gap:10px;margin-top:12px">
+      <button class="btn" id="copiar">Copiar bloque</button>
+      <button class="btn ghost" id="reiniciar">Reiniciar día</button>
+    </div>
+  </div>
+</div>
+
+<noscript><p style="padding:20px">Este ejercicio necesita JavaScript.</p></noscript>
+
+<script>
+const D = {"dia": 12, "semana": 2, "habilidad": "reading", "objetivo": "Cerrar el bloque leyendo en voz alta sin que se note que estás leyendo.", "items": [{"tipo": "reading", "instruccion": "Leé el texto completo en voz alta. Después, sin mirar, contá cuántos picos tuvo.", "stimulus": "The manager said the budget was about to change. She wanted to ask about it, but the meeting had already gone over. Nobody knew if the new numbers would be the same.", "audio": {"uk": null, "us": null}, "opciones": [{"letra": "A", "texto": "Ocho picos: MAN-a-ger · BUDget · ABOUt · WAN-ted · ASK · MEET-ing · NUM-bers · SAME."}, {"letra": "B", "texto": "Tres: solo las palabras más largas."}, {"letra": "C", "texto": "Ninguno: la entonación no existe en inglés escrito."}, {"letra": "D", "texto": "Uno por oración, siempre el primero."}], "correcta": "A", "porQue": "Ocho picos repartidos en tres oraciones — entre dos y cuatro por oración, que es exactamente la regla del día 10. Si contaste uno por oración, estás acentuando siempre la primera palabra, que es el error español más común.", "evaluable": true}, {"tipo": "reading", "instruccion": "¿Qué tres palabras del texto tienen la sílaba más apagada?", "stimulus": "The manager said the budget was about to change.", "audio": {"uk": null, "us": null}, "opciones": [{"letra": "A", "texto": "«to» de «about», «a-» de «manager» y «-get» de «budget»."}, {"letra": "B", "texto": "«the», «the», «was»."}, {"letra": "C", "texto": "No hay ninguna apagada: se leen todas enteras."}, {"letra": "D", "texto": "Solo la última sílaba de «manager»."}], "correcta": "A", "porQue": "Los schwas puros: /ə-BOUT/, /MAN-ə-ger/ y /BUD-get/. Los artículos y «was» también se aplastan, pero conservan su consonante. El schwa es la ausencia de vocal, no una vocal más corta.", "evaluable": true}, {"tipo": "reading", "instruccion": "Grabate leyendo el texto. Comparalo con el audio UK y el US del día.", "stimulus": "", "audio": {"uk": null, "us": null}, "opciones": [], "correcta": null, "porQue": "Es el cierre del bloque. Si tu grabación se acerca a cualquiera de las dos, el schwa quedó. Si suena a lectura en voz alta, lo que falta no es vocabulario: es que todavía estás pronunciando cada sílaba.", "evaluable": false}], "scoreables": 2, "coloquial": [{"expr": "went over", "uk": "went over", "us": "went over", "sentido": "Se pasó del tiempo — de una reunión"}, {"expr": "the thing is", "uk": "the thing is", "us": "the thing is", "sentido": "Lo que pasa es que — repetido del día 10, ahora consolidado"}], "vocabulario": [{"palabra": "already", "fuente": "frecuencia", "uk": "awl-RED-y", "us": "awl-RED-y", "frase": "The meeting had already gone over.", "sentido": "Ya. Tres sílabas con el primer sonido casi mudo."}, {"palabra": "nobody", "fuente": "frecuencia", "uk": "NO-bo-dee", "us": "NO-bo-dee", "frase": "Nobody knew if it would change.", "sentido": "Nadie. Acento en la primera."}, {"palabra": "numbers", "fuente": "frecuencia", "uk": "NUM-bers", "us": "NUM-bers", "frase": "The new numbers look better.", "sentido": "Cifras. Acento en la primera."}, {"palabra": "meeting", "fuente": "material", "uk": "MEET-ing", "us": "MEET-ing", "frase": "The meeting had already gone over.", "sentido": "Reunión. La segunda sílaba se aplasta."}, {"palabra": "new", "fuente": "frecuencia", "uk": "noo", "us": "noo", "frase": "The new numbers are here.", "sentido": "Nuevo. Monosilábica."}, {"palabra": "overtime", "fuente": "frecuencia", "uk": "O-ver-time", "us": "O-ver-time", "frase": "We're not getting paid for overtime.", "sentido": "Horas extra. Acento en la primera."}], "baseFija": {"ankiNuevas": 6, "fonema": {"bloque": 1, "contraste": "schwa", "contrasteBonito": "Schwa", "etapa": "consolidacion", "etapaBonita": "Consolidacion", "elsa": false}}, "porQueDia": "<p><b>Cierre del bloque.<\/b> Schwa es el sonido más frecuente del inglés — más que cualquier\nvocal — y es el que hace que una oración suene a habla y no a lista.<\/p>\n<p>Si algo te quedó de estas seis jornadas: **la sílaba acentuada manda, y todo lo demás\nse achica**. No es una licencia ni un atajo: es la estructura. Decir cada palabra\nabierta no es más claro, es menos procesable.<\/p>\n<p>Y una cosa que casi nadie dice: <b>esto no se nota cuando lo hacés bien<\/b>. Un hispanohablante\nque reduce bien no suena \"con acento fuerte\", suena a alguien que lleva rato hablando\ninglés. Es el cambio más grande por hora invertida del plan entero.<\/p>", "esWriting": false};
+
+/* ───────── audio: archivo si existe, speechSynthesis si no ───────── */
+function speak(text,lang){
+  if(!("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang=lang; u.rate=.92;
+  const v=speechSynthesis.getVoices().find(x=>x.lang===lang)
+        ||speechSynthesis.getVoices().find(x=>x.lang.startsWith(lang.slice(0,2)));
+  if(v)u.voice=v;
+  speechSynthesis.speak(u);
+}
+function play(which,text,file){
+  if(file){ new Audio(file).play(); return; }
+  speak(text, which==="uk" ? "en-GB" : "en-US");
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest(".say"); if(!b)return;
+  play(b.dataset.which, b.dataset.text||"", b.dataset.file||"");
+});
+
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// Sin frase que decir no hay botón: uno que no hace nada al apretarlo es ruido que
+// confunde más de lo que ayuda (los ítems de producción no traen stimulus).
+const sonido=(ph,af)=>!(ph&&String(ph).trim())?"":`
+  <button class="say" data-which="uk" data-text="${esc(ph)}" data-file="${af&&af.uk?esc(af.uk):""}" title="Escuchar UK">🔊 <span class="tag uk">UK</span></button>
+  <button class="say" data-which="us" data-text="${esc(ph)}" data-file="${af&&af.us?esc(af.us):""}" title="Escuchar US">🔊 <span class="tag us">US</span></button>`;
+
+/* ───────── cabecera ───────── */
+document.getElementById("objetivo").textContent = D.objetivo || "";
+{
+  const f = D.baseFija.fonema;
+  document.getElementById("base").innerHTML =
+    `<b>Base fija:</b> <span class="tag">Anki · ${D.baseFija.ankiNuevas} cards</span>
+     <span class="tag">Bloque ${f.bloque} · ${esc(f.contrasteBonito)}</span>
+     <span class="tag">${esc(f.etapaBonita)}</span>
+     ${f.elsa ? '<span class="tag mat">ELSA hoy</span>' : '<span class="tag fre">ELSA no hoy — hoy se produce</span>'}`;
+}
+
+/* ───────── ítems ───────── */
+const estado = {};
+function render(){
+  document.getElementById("items").innerHTML = D.items.map((it,i)=>{
+    const opts = it.opciones.length
+      ? `<div data-c="${i}">` + it.opciones.map(o=>
+          `<button class="ans" data-i="${i}" data-k="${esc(o.letra)}" data-ok="${o.letra===it.correcta}">
+             <span class="k">${esc(o.letra)}</span>${esc(o.texto)}</button>`).join("") + `</div>`
+      : `<div data-c="${i}"><textarea class="prod" data-prod="${i}"
+           placeholder="Escribí acá una sola línea…"></textarea>
+           <button class="btn ghost" data-marcar="${i}" style="margin-top:8px">Ya lo hice ✓</button></div>`;
+    return `<fieldset>
+      <p class="cue" style="margin-bottom:8px">${esc(it.instruccion)}</p>
+      <div class="prompt">
+        <p style="margin:0 0 10px">${sonido(it.stimulus, it.audio)}</p>
+        ${it.stimulus ? `<p class="stereo" style="margin:0">«${esc(it.stimulus)}»</p>` : ""}
+      </div>
+      <p class="q" style="font-size:1em;margin-bottom:9px">${i+1}. ${esc(it.instruccion)}</p>
+      ${opts}
+      <div class="fb" id="fb-${i}"></div>
+    </fieldset>`;
+  }).join("");
+
+  document.querySelectorAll("button.ans").forEach(b=>{
+    b.onclick = ()=>{
+      const i=+b.dataset.i, it=D.items[i], ok=b.dataset.ok==="true";
+      estado[i]=b.dataset.k;
+      const box=b.parentElement;
+      box.querySelectorAll(".ans").forEach(x=>{
+        x.removeAttribute("data-sel");
+        const s=x.querySelector(".sel"); if(s)s.remove();
+      });
+      b.setAttribute("data-sel","1");
+      b.insertAdjacentHTML("beforeend",'<span class="sel">elegida ✓</span>');
+      box.querySelectorAll(".ans").forEach(x=>
+        x.dataset.state = x.dataset.ok==="true" ? "ok" : (x.dataset.k===b.dataset.k ? "no" : ""));
+      const f=document.getElementById("fb-"+i);
+      f.className="fb "+(ok?"ok":"no")+" on";
+      f.innerHTML=`<h4>${ok?"✅":"❌ "}${ok?"Bien.":"No."}</h4><p>${esc(it.porQue)}</p>`;
+      yaml();
+    };
+  });
+  document.querySelectorAll("[data-marcar]").forEach(b=>{
+    b.onclick=()=>{ estado[+b.dataset.marcar]="✓"; yaml(); };
+  });
+}
+render();
+
+/* ───────── panel derecho: el por qué NUNCA se esconde (#14) ───────── */
+document.getElementById("porque").innerHTML = D.porQueDia;
+document.getElementById("coloquial").innerHTML = D.coloquial.map(c=>
+  `<p style="margin:0 0 10px"><b>${esc(c.expr)}</b><br>
+   <span style="font-size:.9em">${esc(c.uk)} <span class="tag uk">UK</span> · ${esc(c.us)} <span class="tag us">US</span><br>
+   ${esc(c.sentido)}</span></p>`).join("");
+document.getElementById("vocab").innerHTML = D.vocabulario.map(v=>
+  `<div><b>${esc(v.palabra)}</b> <span class="tag ${v.fuente==="material"?"mat":"fre"}">${v.fuente}</span><br>
+   <span style="color:var(--muted)">${esc(v.frase)}</span><br>
+   ${esc(v.uk)} <span class="tag uk">UK</span> · ${esc(v.us)} <span class="tag us">US</span><br>
+   ${esc(v.sentido)}</div>`).join("");
+
+/* ───────── registro: el HTML lo arma para que lo pegues (#10) ───────── */
+const CAMPOS = [
+  {k:"fecha",      l:"Fecha",           tipo:"date"},
+  {k:"retenidas",  l:"Anki retenidas / "+D.baseFija.ankiNuevas, tipo:"num", max:D.baseFija.ankiNuevas},
+  {k:"fonema",     l:"Fonema practicado", tipo:"chk"},
+  D.baseFija.fonema.elsa ? {k:"elsa", l:"ELSA score", tipo:"num", max:100} : null,
+  {k:"aciertos",   l:"Aciertos",        tipo:"auto"},
+].filter(Boolean);
+if(D.esWriting){
+  CAMPOS.push(
+    {k:"cTR",  l:"Task Response",              tipo:"band"},
+    {k:"cCC",  l:"Coherence & Cohesion",       tipo:"band"},
+    {k:"cLR",  l:"Lexical Resource",           tipo:"band"},
+    {k:"cGRA", l:"Grammatical Range & Acc.",   tipo:"band"},
+    {k:"ev",   l:"Evidencia citada",           tipo:"txt"},
+    {k:"ac",   l:"Una acción",                 tipo:"txt"},
+  );
+}
+document.getElementById("regcampos").innerHTML = CAMPOS.map(c=>{
+  if(c.tipo==="chk") return `<label>${esc(c.l)} <input type="checkbox" data-campo="${c.k}"></label>`;
+  if(c.tipo==="auto") return `<label>${esc(c.l)} <b id="v-aciertos">0</b> / ${D.scoreables} <span style="color:var(--muted)">(automático)</span></label>`;
+  if(c.tipo==="band") return `<label>${esc(c.l)} <select data-campo="${c.k}"><option value="">—</option>${
+    [3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9].map(b=>`<option>${b}</option>`).join("")}</select></label>`;
+  if(c.tipo==="txt") return `<label style="flex:1 1 240px">${esc(c.l)} <input type="text" data-campo="${c.k}" style="flex:1;min-width:180px"></label>`;
+  return `<label>${esc(c.l)} <input type="${c.tipo}" data-campo="${c.k}"></label>`;
+}).join("");
+
+const val = k => {
+  const el = document.querySelector(`[data-campo="${k}"]`);
+  if(!el) return null;
+  if(el.type==="checkbox") return el.checked ? "true" : "false";
+  return el.value.trim();
+};
+function aciertos(){
+  let g=0;
+  D.items.forEach((it,i)=>{ if(it.evaluable && estado[i]===it.correcta) g++; });
+  return g;
+}
+function yaml(){
+  const g=aciertos();
+  document.getElementById("v-aciertos").textContent=g;
+  const y = [
+    "---",
+    `fecha: ${val("fecha") || "null"}`,
+    `dia: ${D.dia}`,
+    `semana: ${D.semana}`,
+    `habilidad: ${D.habilidad}`,
+    "",
+    "base:",
+    `  anki_retenidas: ${val("retenidas") || "null"}`,
+    `  fonema_practicado: ${val("fonema") || "null"}`,
+    `  elsa_score: ${val("elsa") || "null"}`,
+    "",
+    "ejercicio:",
+    `  aciertos: ${g}`,
+    `  total: ${D.scoreables}`,
+    "",
+  ];
+  if(D.esWriting){
+    y.push("writing:",
+      `  tarea: task_2`,
+      "  criterios:",
+      `    task_response: ${val("cTR") || "null"}`,
+      `    coherence_cohesion: ${val("cCC") || "null"}`,
+      `    lexical_resource: ${val("cLR") || "null"}`,
+      `    grammatical_range_accuracy: ${val("cGRA") || "null"}`,
+      `  evidencia: "${val("ev") || ""}"`,
+      `  accion: "${val("ac") || ""}"`, "");
+  }else{
+    y.push("writing: null", "");
+  }
+  y.push("medicion:", "  banda_medida: null", "  nivel_autoevaluado: null", "  band_fuente: null", "---", "",
+    "# Nota del día", "", "Escribí acá lo que quieras recordar. Libre.");
+  document.getElementById("yaml").textContent = y.join("\n");
+}
+document.querySelectorAll("[data-campo]").forEach(el=>el.addEventListener("input", yaml));
+yaml();
+
+document.getElementById("copiar").onclick = async ()=>{
+  const t = document.getElementById("yaml").textContent;
+  try{ await navigator.clipboard.writeText(t); }
+  catch(e){
+    const ta=document.createElement("textarea"); ta.value=t; document.body.appendChild(ta);
+    ta.select(); document.execCommand("copy"); ta.remove();
+  }
+  const b=document.getElementById("copiar");
+  b.textContent="Copiado ✓"; setTimeout(()=>b.textContent="Copiar bloque",1400);
+};
+document.getElementById("reiniciar").onclick = ()=>{
+  if(!confirm("¿Reiniciar el día? Se borran las respuestas, no el registro.")) return;
+  for(const k in estado) delete estado[k];
+  render(); yaml();
+};
+</script>
+</body>
+</html>

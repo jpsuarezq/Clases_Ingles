@@ -534,3 +534,533 @@
     **Es el error número uno del hispanohablante y el que más rápido corrige.** Y es la razón
     por la que el bloque de acento léxico fue primero: sin saber cuál sílaba manda, no hay
     ninguna que se pueda apagar.
+
+8:
+  objetivo: "Leer en inglés sin pronunciar cada sílaba, y notar cuáles se caen."
+  stimulus: "The computer in the office was about to be replaced, but the manager couldn't remember the budget."
+  items:
+    - tipo: reading
+      instruccion: "Leé la oración. ¿Cuántas sílabas se dicen completas, sin aplastar?"
+      stimulus: "The computer in the office was about to be replaced."
+      opciones:
+        - "«computer», «office», «replaced» — las acentuadas. El resto se achica."
+        - "Todas: se pronuncian enteras como en español."
+        - "Solo «computer»."
+        - "Ninguna: en inglés no se aplasta nada."
+      correcta: A
+      por_que: >-
+        Tres palabras con acento fuerte y todo lo demás —«the», «in», «was», «to be»—
+        se reduce a casi nada. Esa es la jerarquía: la frase no es una hilera de
+        palabras igualitas, es una montaña con tres picos.
+    - tipo: reading
+      instruccion: "¿Qué palabra tiene la sílaba más apagada de toda la oración?"
+      stimulus: "The computer in the office was about to be replaced."
+      opciones:
+        - "La primera de «about»: /ə-BOUT/, apenas un soplo."
+        - "La última de «computer»."
+        - "El artículo «the»."
+        - "Todas se apagan por igual."
+      correcta: A
+      por_que: >-
+        La primera de «about» es la más reducida de la oración entera: es el schwa
+        puro, /ə/, que no es una vocal sino la ausencia de vocal. El artículo «the»
+        también se aplasta, pero conserva su consonante /ð/ — «about» arranca sin
+        casi nada.
+    - tipo: reading
+      instruccion: "Subrayá las sílabas acentuadas y leé en voz alta marcando los picos."
+      opciones: []
+      correcta: null
+      por_que: >-
+        com-PU-ter · OF-fice · a-BOUT · re-PLACED. Si los tres picos no quedan claros
+        al decirlo, la oración suena plana aunque cada palabra esté bien.
+  coloquial:
+    - {expr: "kind of / kinda", uk: "kind of", us: "kinda",
+       sentido: "Más o menos. En habla se aplasta en una sola palabra."}
+    - {expr: "want to / wanna", uk: "want to", us: "wanna",
+       sentido: "Querer. La reducción es la regla del día hecha palabra."}
+  vocabulario:
+    - {palabra: "about", fuente: frecuencia, uk: "a-BOUT", us: "a-BOUT",
+       frase: "The computer was about to be replaced.",
+       sentido: "A punto de, o sobre. La primera sílaba es un soplo."}
+    - {palabra: "computer", fuente: frecuencia, uk: "com-PU-ter", us: "com-PU-ter",
+       frase: "The computer in the office is old.",
+       sentido: "Computadora. Acento en la segunda; las otras dos se achican."}
+    - {palabra: "office", fuente: frecuencia, uk: "OF-fice", us: "OF-fice",
+       frase: "I'm in the office until five.",
+       sentido: "Oficina. Acento en la primera."}
+    - {palabra: "manager", fuente: frecuencia, uk: "MAN-a-ger", us: "MAN-i-ger",
+       frase: "The manager couldn't remember.",
+       sentido: "Gerente. Tres sílabas, acento en la primera."}
+    - {palabra: "replace", fuente: frecuencia, uk: "re-PLACE", us: "re-PLACE",
+       frase: "We need to replace the printer.",
+       sentido: "Reemplazar. Acento en la segunda."}
+    - {palabra: "budget", fuente: frecuencia, uk: "BUD-get", us: "BUD-get",
+       frase: "The budget is too tight this year.",
+       sentido: "Presupuesto. Acento en la primera; la segunda se aplasta."}
+  cuerpo: |
+    Día de percepción, pero en **lectura** — y eso cambia el trabajo. El papel no te avisa
+    qué sílaba se cae: está escrita igual que las demás. Hay que decidirlo antes de abrir
+    la boca.
+
+    El truco de hoy es contar los picos, no las sílabas. **«The computer in the office was
+    about to be replaced» tiene tres picos y doce sílabas.** Si intentás pronunciar las doce,
+    la oración suena a máquina y el oyente pierde el hilo — no porque esté mal, sino porque
+    en inglés eso no se procesa como habla.
+
+    Lo que distingue a un lector fluido no es que entienda más palabras: es que **se salta
+    las sílabas sin darse cuenta**. Es un hábito de lectura, no de vocabulario.
+
+9:
+  objetivo: "Escuchar a alguien pedir que le repitan, y captar qué se perdió y por qué."
+  stimulus: "Dialogue 1-7 · Can You Say That Again? (Everyday Conversations, US Dept. of State)"
+  items:
+    - tipo: listening
+      instruccion: "En la escena, la persona no entendió y pide repetición. ¿Cómo lo pide?"
+      stimulus: "Sorry, could you say that again?"
+      opciones:
+        - "«Sorry» + petición en pasado. Cortés, sin mandar."
+        - "«Hey!» + imperativo directo."
+        - "«What?» a los gritos."
+        - "No pide nada: finge que entendió."
+      correcta: A
+      por_que: >-
+        «Could you say that again?» es la forma normal de pedir repetición: va en
+        condicional, que en inglés suaviza la petición. Un «What?» solo se usa entre
+        amigos o cuando algo te molestó. La diferencia no es vocabulario, es registro.
+    - tipo: listening
+      instruccion: "¿Qué palabra de la petición se APAGA al decirlo rápido?"
+      stimulus: "Sorry, could you say that again?"
+      opciones:
+        - "«could»: se reduce hasta casi desaparecer."
+        - "«again»: se corta al final."
+        - "«sorry»: se dice «sry»."
+        - "Ninguna: cada palabra se dice entera."
+      correcta: A
+      por_que: >-
+        Es «could», una function word. En frase hablada se escucha casi /kjəd/, sin la
+        vocal larga. «Again» también se aplasta en la segunda sílaba, pero la palabra
+        entera se oye. Si decís «COULD you SAY that A-GAIN» con todas abiertas, suena
+        a lectura en voz alta, no a charla.
+    - tipo: listening
+      instruccion: "Pensá en una situación de tu trabajo en la que perderías algo. Escribí la frase para pedir repetición."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «Sorry, could you run that by me again?» — «run it by me» es la versión más
+        coloquial y aparece en el día 2. Lo que importa no es la frase bonita: es que
+        la digas en voz alta antes de anotarla.
+  coloquial:
+    - {expr: "say that again", uk: "say that again", us: "say that again",
+       sentido: "Pedir repetición — lo más útil del día"}
+    - {expr: "run it by me", uk: "run it past me", us: "run it by me",
+       sentido: "Explícamelo otra vez, más informal"}
+  vocabulario:
+    - {palabra: "could", fuente: frecuencia, uk: "kjəd", us: "kjəd",
+       frase: "Could you say that again?",
+       sentido: "Podrías. Function word: se aplasta hasta casi oírse /kjəd/."}
+    - {palabra: "again", fuente: frecuencia, uk: "ə-GEN", us: "ə-GEN",
+       frase: "Sorry, could you say that again?",
+       sentido: "Otra vez. Acento en la segunda; la primera es un soplo."}
+    - {palabra: "sorry", fuente: material, uk: "SOR-ry", us: "SOR-ry",
+       frase: "Sorry, do you mind?",
+       sentido: "Disculpa. En Reino Unido se usa muchísimo más que en Estados Unidos."}
+    - {palabra: "hear", fuente: frecuencia, uk: "here", us: "here",
+       frase: "I didn't hear you, sorry.",
+       sentido: "Oír. Se escribe distinto de «here» pero se dice igual."}
+    - {palabra: "repeat", fuente: frecuencia, uk: "re-PEAT", us: "re-PEAT",
+       frase: "Could you repeat the last part?",
+       sentido: "Repetir. Acento en la segunda."}
+    - {palabra: "mind", fuente: frecuencia, uk: "mind", us: "mind",
+       frase: "Do you mind if I sit here?",
+       sentido: "Importar, molestar. Monosilábica: se dice entera."}
+  cuerpo: |
+    **Pedir que te repitan es la habilidad más subestimada del plan.** La mayoría intenta
+    entenderlo todo y calla cuando se pierde — y ahí se pierde la conversación entera.
+
+    En inglés pedir repetición no es grosero: **es lo normal**. «Sorry, could you say that
+    again?» no te hace sonar menos competente, te hace sonar profesional. Lo que suena mal
+    es asentir sin haber entendido.
+
+    Lo que importa hoy no es la frase: es que **se diga rápido y sin apuro**. «Could you»
+    se aplasta, «again» aterriza en la segunda sílaba. Si la decís letra por letra suena a
+    manual de instrucciones.
+
+    Fijate en el registro: «What?» entre amigos funciona, en una reunión no. **Esa es toda
+    la diferencia entre inglés de aula e inglés de trabajo.**
+
+10:
+  objetivo: "Escribir una frase donde lo que se aplasta sea lo que se aplasta al hablar."
+  items:
+    - tipo: writing
+      instruccion: "Escribí esta oración y marcá mentalmente los picos antes de mirar la respuesta."
+      stimulus: "I think the budget was about the same."
+      opciones: []
+      correcta: null
+      por_que: >-
+        THINK · BUDget · ABOUt · SAME. Cuatro picos, ocho sílabas. Las otras —«I», «the»,
+        «was», «the»— son casi ruido. Si la escribís y la decís y todos los sonidos salen
+        iguales, es que no la estás leyendo como inglés.
+    - tipo: writing
+      instruccion: "Corregí el ritmo de esta oración: está escrita bien pero dicha suena robótica."
+      stimulus: "I want to go to the office because the manager is there."
+      opciones:
+        - "El ritmo sale de las palabras: WANT · OF-fice · MAN-a-ger. Lo demás se aplasta."
+        - "Hay que agregarle tildes en español."
+        - "Está bien dicha completa: es más claro así."
+        - "No se puede saber leyendo, solo escuchando."
+      correcta: A
+      por_que: >-
+        Tres picos: WANT, OF-fice y MAN-a-ger. «to», «the», «because», «is», «there» son
+        function words y se achican. El texto no cambia — cambia cuánto se abre la boca
+        en cada sílaba.
+    - tipo: writing
+      instruccion: "Escribí tres oraciones cortas de trabajo y contá sus picos. Una línea cada una."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Regla práctica: una oración de trabajo tiene entre dos y cuatro picos. Si tiene
+        seis, es demasiado larga y nadie la va a retener. Escribir en inglés es escribir
+        con jerarquía.
+  writing:
+    tarea: task_2
+    consigna: "Some people think that speaking clearly is more important than using advanced vocabulary. Others disagree. Discuss both views and give your own opinion."
+    min_palabras: 250
+  coloquial:
+    - {expr: "more or less", uk: "more or less", us: "more or less",
+       sentido: "Más o menos — cierra casi cualquier respuesta vaga"}
+    - {expr: "the thing is", uk: "the thing is", us: "the thing is",
+       sentido: "Lo que pasa es que — introduce el punto duro"}
+  vocabulario:
+    - {palabra: "think", fuente: frecuencia, uk: "think", us: "think",
+       frase: "I think the budget was about the same.",
+       sentido: "Pensar. Monosilábica: picos enteros, nada que aplastar."}
+    - {palabra: "budget", fuente: material, uk: "BUD-get", us: "BUD-get",
+       frase: "The budget was about the same.",
+       sentido: "Presupuesto. Acento en la primera."}
+    - {palabra: "because", fuente: frecuencia, uk: "BEE-cuz", us: "BEE-cuz",
+       frase: "I'm late because the meeting ran over.",
+       sentido: "Porque. Se contrae hasta /bɪkəz/ en habla rápida."}
+    - {palabra: "same", fuente: frecuencia, uk: "same", us: "same",
+       frase: "It's about the same.",
+       sentido: "Igual. Monosilábica."}
+    - {palabra: "about", fuente: material, uk: "a-BOUT", us: "a-BOUT",
+       frase: "It's about the same.",
+       sentido: "Más o menos. Soplo inicial + sílaba fuerte."}
+    - {palabra: "wonder", fuente: frecuencia, uk: "WON-der", us: "WON-der",
+       frase: "I wonder if that's right.",
+       sentido: "Preguntarse. Acento en la primera."}
+  cuerpo: |
+    **Producción escrita del schwa.** Y la verdad incómoda: en papel no se ve. El inglés
+    escrito es sordo respecto de su propio ritmo.
+
+    Por eso el trabajo de hoy no es escribir mejor: es **escribir y luego decir**. La
+    oración sale de la boca, y ahí aparece lo que el papel escondió — que la escribiste
+    plana, con todas las palabras abiertas igual.
+
+    Un truco que sirve: **contá los picos al escribir**. Si tu oración tiene cinco, cortala.
+    El inglés de trabajo se construye con frases de dos a cuatro picos, y eso es una
+    decisión de escritura, no de pronunciación.
+
+    Es la etapa más resistida del bloque, porque obliga a leer en voz alta algo escrito —
+    que se siente ridículo las primeras veces. **Las tres semanas siguientes se pagan acá.**
+
+11:
+  objetivo: "Decir una oración larga sin que se desmorone, dejando caer lo que corresponde."
+  items:
+    - tipo: speaking
+      instruccion: "Decí la frase tres veces, más rápido cada vez. Grabate la última."
+      stimulus: "I wanted to ask about the budget because the manager said it was about to change."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Picos: WANted · ASK · BUDget · MANa-ger · ABOUt · CHANGE. Seis, que es el máximo
+        de una oración. Si te trabás en algún punto, ese es el que hay que practicar —
+        no la oración entera.
+    - tipo: speaking
+      instruccion: "Escuchá mentalmente la versión plana y la reducida. ¿Cuál suena más natural?"
+      stimulus: "I wanted to ask about the budget."
+      opciones:
+        - "La reducida: «wanted» aplasta la segunda sílaba y «to» casi desaparece."
+        - "La plana: cada palabra abierta es más claro."
+        - "Son iguales en inglés."
+        - "Depende del acento: en Reino Unido no se reduce."
+      correcta: A
+      por_que: >-
+        Se reduce siempre, en ambos acentos — lo que cambia entre UK y US es el vocabulario
+        y las vocales, no el principio de reducir. «Wanted» se dice /WAN-tɪd/, con la
+        segunda sílaba casi muda, y «to» se funde con lo que viene.
+    - tipo: speaking
+      instruccion: "Formulá una pregunta de trabajo larga y contá sus picos en voz alta."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «Do you know if the budget has changed?» — cuatro picos: DO · KNOW · BUDget ·
+        CHANGED. Lo demás se aplasta. Si te salen seis, la oración es demasiado.
+  coloquial:
+    - {expr: "kind of a lot", uk: "kind of a lot", us: "kinda a lot",
+       sentido: "Bastante — se funde todo en una cadena"}
+    - {expr: "gonna", uk: "going to", us: "gonna",
+       sentido: "La reducción de «going to», oída en todos lados"}
+  vocabulario:
+    - {palabra: "wanted", fuente: frecuencia, uk: "WAN-tid", us: "WAN-tid",
+       frase: "I wanted to ask about the budget.",
+       sentido: "Quería. La segunda sílaba casi no se oye."}
+    - {palabra: "ask", fuente: frecuencia, uk: "ask", us: "ask",
+       frase: "I wanted to ask a question.",
+       sentido: "Preguntar. Monosilábica, acento entero."}
+    - {palabra: "said", fuente: frecuencia, uk: "sed", us: "sed",
+       frase: "The manager said it was about to change.",
+       sentido: "Dijo. Se escribe «said» pero se dice /sed/."}
+    - {palabra: "change", fuente: frecuencia, uk: "change", us: "change",
+       frase: "The budget is about to change.",
+       sentido: "Cambiar. Monosilábica."}
+    - {palabra: "know", fuente: frecuencia, uk: "no", us: "no",
+       frase: "Do you know if that's right?",
+       sentido: "Saber. La «k» inicial no se pronuncia."}
+    - {palabra: "going to", fuente: material, uk: "gonna", us: "gonna",
+       frase: "I'm going to send it now.",
+       sentido: "Voy a. En habla se funde en «gonna»."}
+  cuerpo: |
+    **Producción hablada del schwa.** El día donde la oración larga se sostiene sola.
+
+    El truco es que **los picos se marcan con el volumen y el alargamiento, no con la
+    pausa**. Si cortás entre palabras para dejar claras las importantes, la frase suena a
+    dictado. En inglés lo que baja no se corta: se pasa por encima rápido.
+
+    «I WANted to ASK about the BUDget» — «to» y «about» no desaparecen, se dicen apretados
+    y seguidos. **Es un valle, no un hueco.**
+
+    Si algo se te traba, no repitas la oración entera. **Aisla la palabra y trava esa.** Es
+    el mismo método del drill fonético de la base diaria: trabajar la pieza, no la pieza
+    completa.
+
+12:
+  objetivo: "Cerrar el bloque leyendo en voz alta sin que se note que estás leyendo."
+  items:
+    - tipo: reading
+      instruccion: "Leé el texto completo en voz alta. Después, sin mirar, contá cuántos picos tuvo."
+      stimulus: "The manager said the budget was about to change. She wanted to ask about it, but the meeting had already gone over. Nobody knew if the new numbers would be the same."
+      opciones:
+        - "Ocho picos: MAN-a-ger · BUDget · ABOUt · WAN-ted · ASK · MEET-ing · NUM-bers · SAME."
+        - "Tres: solo las palabras más largas."
+        - "Ninguno: la entonación no existe en inglés escrito."
+        - "Uno por oración, siempre el primero."
+      correcta: A
+      por_que: >-
+        Ocho picos repartidos en tres oraciones — entre dos y cuatro por oración, que es
+        exactamente la regla del día 10. Si contaste uno por oración, estás acentuando
+        siempre la primera palabra, que es el error español más común.
+    - tipo: reading
+      instruccion: "¿Qué tres palabras del texto tienen la sílaba más apagada?"
+      stimulus: "The manager said the budget was about to change."
+      opciones:
+        - "«to» de «about», «a-» de «manager» y «-get» de «budget»."
+        - "«the», «the», «was»."
+        - "No hay ninguna apagada: se leen todas enteras."
+        - "Solo la última sílaba de «manager»."
+      correcta: A
+      por_que: >-
+        Los schwas puros: /ə-BOUT/, /MAN-ə-ger/ y /BUD-get/. Los artículos y «was» también
+        se aplastan, pero conservan su consonante. El schwa es la ausencia de vocal, no
+        una vocal más corta.
+    - tipo: reading
+      instruccion: "Grabate leyendo el texto. Comparalo con el audio UK y el US del día."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Es el cierre del bloque. Si tu grabación se acerca a cualquiera de las dos, el
+        schwa quedó. Si suena a lectura en voz alta, lo que falta no es vocabulario: es
+        que todavía estás pronunciando cada sílaba.
+  coloquial:
+    - {expr: "went over", uk: "went over", us: "went over",
+       sentido: "Se pasó del tiempo — de una reunión"}
+    - {expr: "the thing is", uk: "the thing is", us: "the thing is",
+       sentido: "Lo que pasa es que — repetido del día 10, ahora consolidado"}
+  vocabulario:
+    - {palabra: "already", fuente: frecuencia, uk: "awl-RED-y", us: "awl-RED-y",
+       frase: "The meeting had already gone over.",
+       sentido: "Ya. Tres sílabas con el primer sonido casi mudo."}
+    - {palabra: "nobody", fuente: frecuencia, uk: "NO-bo-dee", us: "NO-bo-dee",
+       frase: "Nobody knew if it would change.",
+       sentido: "Nadie. Acento en la primera."}
+    - {palabra: "numbers", fuente: frecuencia, uk: "NUM-bers", us: "NUM-bers",
+       frase: "The new numbers look better.",
+       sentido: "Cifras. Acento en la primera."}
+    - {palabra: "meeting", fuente: material, uk: "MEET-ing", us: "MEET-ing",
+       frase: "The meeting had already gone over.",
+       sentido: "Reunión. La segunda sílaba se aplasta."}
+    - {palabra: "new", fuente: frecuencia, uk: "noo", us: "noo",
+       frase: "The new numbers are here.",
+       sentido: "Nuevo. Monosilábica."}
+    - {palabra: "overtime", fuente: frecuencia, uk: "O-ver-time", us: "O-ver-time",
+       frase: "We're not getting paid for overtime.",
+       sentido: "Horas extra. Acento en la primera."}
+  cuerpo: |
+    **Cierre del bloque.** Schwa es el sonido más frecuente del inglés — más que cualquier
+    vocal — y es el que hace que una oración suene a habla y no a lista.
+
+    Si algo te quedó de estas seis jornadas: **la sílaba acentuada manda, y todo lo demás
+    se achica**. No es una licencia ni un atajo: es la estructura. Decir cada palabra
+    abierta no es más claro, es menos procesable.
+
+    Y una cosa que casi nadie dice: **esto no se nota cuando lo hacés bien**. Un hispanohablante
+    que reduce bien no suena "con acento fuerte", suena a alguien que lleva rato hablando
+    inglés. Es el cambio más grande por hora invertida del plan entero.
+
+13:
+  objetivo: "Reconocer las palabras que no significan nada pero sostienen la frase."
+  stimulus: "the · a · of · to · in · and · but · or"
+  items:
+    - tipo: listening
+      instruccion: "Estas ocho palabras se dicen casi sin abrir la boca. ¿Cuáles tienen schwa?"
+      stimulus: "the · a · of · to · in · and"
+      opciones:
+        - "Todas menos «in»."
+        - "Ninguna: son palabras completas."
+        - "Solo «the»."
+        - "Solo «and»."
+      correcta: B
+      por_que: >-
+        Ninguna: **todas tienen schwa**. /ðə/ · /ə/ · /əv/ · /tə/ · /ɪn/ · /ənd/. Es la
+        razón por la que este bloque viene después: las function words son schwa hecho
+        palabra. Si el bloque anterior quedó claro, este se cae de su peso.
+    - tipo: listening
+      instruccion: "Escuchá la frase y contá cuántas function words se aplastan."
+      stimulus: "I gave the report to the manager and the budget of the new project."
+      opciones:
+        - "Seis: «the», «to», «the», «and», «the», «of»."
+        - "Ninguna: se pronuncian enteras."
+        - "Dos: «the» y «to»."
+        - "Cuatro, las del final."
+      correcta: A
+      por_que: >-
+        Seis function words aplastadas contra cinco palabras de contenido. **Más de la
+        mitad de la frase es casi ruido** — y es exactamente lo que hace que el inglés
+        tenga ritmo. Si leés las seis enteras, la oración dura el doble.
+    - tipo: listening
+      instruccion: "Decí la frase completa dejando caer las function words. Una línea."
+      opciones: []
+      correcta: null
+      por_que: >-
+        «I GAVE the rePORT to the MANager and the BUDget of the NEW PROject.» Cuatro
+        picos... cinco. Lo importante es que se oigan ellos y nada más: si también se
+        oye «the», estás pronunciando artículo.
+  coloquial:
+    - {expr: "kind of / sort of", uk: "kind of / sort of", us: "kinda / sorta",
+       sentido: "Function words fundidas: el patrón del bloque"}
+    - {expr: "give it to me", uk: "give it to me", us: "gimme",
+       sentido: "En habla real se funde en una sola palabra"}
+  vocabulario:
+    - {palabra: "the", fuente: frecuencia, uk: "ðə", us: "ðə",
+       frase: "I gave the report to the manager.",
+       sentido: "El/la. Se reduce a /ðə/ y casi nunca se oye entera."}
+    - {palabra: "of", fuente: frecuencia, uk: "əv", us: "əv",
+       frase: "The budget of the new project.",
+       sentido: "De. Se escribe «of» y suena /əv/, sin vocal clara."}
+    - {palabra: "to", fuente: frecuencia, uk: "tə", us: "tə",
+       frase: "I gave the report to the manager.",
+       sentido: "A. En frase dicha es apenas /tə/."}
+    - {palabra: "and", fuente: frecuencia, uk: "ənd", us: "ənd",
+       frase: "The budget and the numbers.",
+       sentido: "Y. En habla rápida se funde: «bundget»."}
+    - {palabra: "but", fuente: frecuencia, uk: "bət", us: "bət",
+       frase: "I wanted to go, but the meeting ran over.",
+       sentido: "Pero. La vocal es un soplo."}
+    - {palabra: "report", fuente: frecuencia, uk: "re-PORT", us: "re-PORT",
+       frase: "I gave the report to the manager.",
+       sentido: "Informe. Es palabra de contenido: se oye completa."}
+  cuerpo: |
+    Empieza el bloque de las **function words** — las palabras que no significan nada y
+    sostienen la frase entera: *the, a, of, to, in, and, but, or*.
+
+    La primera mitad del plan las trató como vocabulario. **No lo son.** Se dicen apretadas
+    y seguidas, y su valor no está en el sonido sino en la posición: marcan cuál es el sujeto
+    y cuál el objeto, cuándo algo se completa y cuándo empieza.
+
+    De ahí la consecuencia que ordena este bloque: **si las dices enteras, la oración se
+    alarga el doble y pierde el ritmo**. No se entiende peor — se procesa como alguien que
+    no habla inglés, sino que lo deletrea.
+
+    Lo que las vuelve difíciles no es el sonido: ya los conocés del bloque anterior. Es que
+    **hay que dejar de pronunciarlas**, que es lo contrario de todo lo que te enseñaron.
+
+14:
+  objetivo: "Escribir sin function words de más, y leer en voz alta dejando caer las que sí van."
+  items:
+    - tipo: writing
+      instruccion: "¿Cuál de estas dos frases suena más natural al decirla?"
+      stimulus: "A: I gave the report to the manager. / B: I gave report to manager."
+      opciones:
+        - "A: los artículos van, pero se dicen apretados, no se borran."
+        - "B: los artículos sobran y se pueden omitir siempre."
+        - "Ninguna: en inglés se omiten artículos como en español."
+        - "B: es la forma hablada real."
+      correcta: A
+      por_que: >-
+        Los artículos **van escritos** — solo se aplastan al hablar. Quitarlos es un error
+        de escritura, no una licencia de informalidad. Es la distinción clave del bloque:
+        se reduce el sonido, no la palabra.
+    - tipo: writing
+      instruccion: "Reescribí esta oración eliminando lo que sobre y marcando los picos."
+      stimulus: "In my opinion, I think that the budget is, in fact, too big."
+      opciones:
+        - "I think the budget is too big. — cuatro picos: THINK · BUDget · IS · BIG."
+        - "Está bien así: en inglés se permite la redundancia."
+        - "I think that the budget is too big. — solo se quita «in my opinion»."
+        - "No se puede recortar sin cambiar el sentido."
+      correcta: A
+      por_que: >-
+        «In my opinion» + «I think» dicen lo mismo, e «in fact» no aporta. El inglés de
+        trabajo premia la economía: cuatro picos se retienen; seis se pierden. Lo que
+        sobra en escritura también sobra al hablar.
+    - tipo: writing
+      instruccion: "Escribí tres oraciones donde las function words solo se aprieten al decirlas."
+      opciones: []
+      correcta: null
+      por_que: >-
+        Todas van escritas. Ninguna se borra. Lo que cambia es cuánto se abre la boca:
+        /ðə BUDget əv ðə NEW PROject/ contra «THE BUDGET OF THE NEW PROJECT». Escribí
+        la primera y decí la segunda.
+  writing:
+    tarea: task_2
+    consigna: "Some people believe that clear writing at work matters more than correct grammar. Others think grammar is essential. Discuss both views and give your own opinion."
+    min_palabras: 250
+  coloquial:
+    - {expr: "the thing is", uk: "the thing is", us: "the thing is",
+       sentido: "Lo que pasa es que — la frase que ordena un punto"}
+    - {expr: "as a matter of fact", uk: "as a matter of fact", us: "actually",
+       sentido: "En realidad. UK y US lo dicen distinto."}
+  vocabulario:
+    - {palabra: "opinion", fuente: frecuencia, uk: "ə-PIN-yən", us: "ə-PIN-yən",
+       frase: "In my opinion, the budget is too big.",
+       sentido: "Opinión. Acento en la segunda; primera y última se apagan."}
+    - {palabra: "fact", fuente: frecuencia, uk: "fakt", us: "fakt",
+       frase: "In fact, the budget is fine.",
+       sentido: "Hecho. Monosilábica, acento entero."}
+    - {palabra: "opinion", fuente: material, uk: "ə-PIN-yən", us: "ə-PIN-yən",
+       frase: "What's your opinion on this?",
+       sentido: "Repetido a propósito: es de las pocas palabras con dos schwas."}
+    - {palabra: "grammar", fuente: frecuencia, uk: "GRAM-ar", us: "GRAM-er",
+       frase: "His grammar is good but his rhythm is flat.",
+       sentido: "Gramática. Acento en la primera; la segunda es schwa."}
+    - {palabra: "essential", fuente: frecuencia, uk: "ə-SEN-shəl", us: "ə-SEN-shəl",
+       frase: "Grammar is essential when you write.",
+       sentido: "Esencial. Acento en la segunda."}
+    - {palabra: "actually", fuente: frecuencia, uk: "AK-choo-lee", us: "AK-chul-ee",
+       frase: "Actually, I think it's fine.",
+       sentido: "En realidad. Acento en la primera."}
+  cuerpo: |
+    **Percepción escrita de las function words.** Y el error que arrastra todo el bloque:
+    **confundir reducir con omitir**.
+
+    Los artículos, las preposiciones y las conjunciones **van escritas**. «I gave report to
+    manager» no es inglés informal, es inglés mal escrito. Lo que pasa al hablar es que se
+    aplastan hasta casi desaparecer — pero la palabra está.
+
+    Eso tiene una consecuencia directa en la escritura: **lo que se aplasta al hablar es
+    candidato a sobrar en la escritura**. «In my opinion» + «I think» dicen lo mismo; si
+    los dos están, uno sobra. El inglés de trabajo se limpia quitando redundancia, no
+    acortando palabras de contenido.
+
+    La regla del día: **escribí completo, decí apretado**. Los dos movimientos a la vez,
+    y ninguno en lugar del otro.
