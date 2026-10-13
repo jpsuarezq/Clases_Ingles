@@ -29,6 +29,12 @@ coverage/
 .DS_Store
 Thumbs.db
 
+# Progreso personal — NUNCA se commitea a un repo público (AGENTS.md).
+# Lo que se estudia (datos.md, ejercicio.html) vive en el repo.
+# Lo que te pasó a vos (registro.md) y de donde se deriva (progreso.md) vive solo en local.
+progreso.md
+ejercicios/dia-*/registro.md
+
 # Lockfiles: keep npm's, ignore the rest
 yarn.lock
 pnpm-lock.yaml
