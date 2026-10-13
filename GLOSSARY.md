@@ -92,6 +92,38 @@ Listening + Reading completos, con tiempo, puntuados. Solo hay material gratis p
 el plan, y se reparten en dos días consecutivos porque no caben en 60 minutos de una.
 _Avoid_: examen de prueba, simulacro completo
 
+## Evaluación de writing
+
+**Rúbrica de writing**:
+Los cuatro criterios oficiales de IELTS —Task Achievement/Response, Coherence & Cohesion, Lexical
+Resource, Grammatical Range & Accuracy— **al 25% cada uno**, y cada uno con **tres sub-chequeos y
+cita obligatoria**. Task 1 vale 1/3 del Writing band y Task 2, 2/3.
+_Avoid_: checklist, grading, criterios propios
+
+**Cita obligatoria**:
+Cada nota tiene que venir con un **fragmento literal** del texto que la justifica. Si el LLM no puede
+citar, **no asigna**. Es el mecanismo contra la inflación: sin anclaje en el texto, un LLM puntúa
+IELTS alto de más, y trece semanas de eso convierten la tendencia en ruido disfrazado de progreso.
+_Avoid_: feedback general, comentario sin evidencia
+
+**Calibración de partida**:
+El LLM recibe el band del baseline (#15) y evalúa contra **los descriptores de ese band**, no contra
+una media genérica. La nota de partida no se hardcodea en la rúbrica: la produce el primer writing
+corregido.
+_Avoid_: band asumido, punto cero fijo
+
+**Tarea de práctica**:
+**Task 2** en los días de práctica —es 2/3 del band y es la escritura más difícil—. **Task 1** entra
+en el drill semanal y en los mocks: es más fórmula y se presta al drill. Hacer ambas cada vez serían
+~400 palabras por práctica, que en un A2 se vuelve fatiga.
+_Avoid_: ambas tareas siempre, Task 1 diaria
+
+**Salida de la corrección**:
+Notas por criterio + evidencia citada + **una acción concreta**. **No incluye un rewrite sugerido**:
+la práctica de rewriting no guiado **no transfirió** a la prueba con escritura nativa (d = 0,00).
+Leer un texto corregido no es escribir.
+_Avoid_: versión corregida, rewrite del modelo
+
 ## Vocabulario
 
 **Deck**:
