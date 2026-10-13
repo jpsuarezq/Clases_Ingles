@@ -129,7 +129,9 @@ document.addEventListener("click",e=>{
 });
 
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const sonido=(ph,af)=>`
+// Sin frase que decir no hay botón: uno que no hace nada al apretarlo es ruido que
+// confunde más de lo que ayuda (los ítems de producción no traen stimulus).
+const sonido=(ph,af)=>!(ph&&String(ph).trim())?"":`
   <button class="say" data-which="uk" data-text="${esc(ph)}" data-file="${af&&af.uk?esc(af.uk):""}" title="Escuchar UK">🔊 <span class="tag uk">UK</span></button>
   <button class="say" data-which="us" data-text="${esc(ph)}" data-file="${af&&af.us?esc(af.us):""}" title="Escuchar US">🔊 <span class="tag us">US</span></button>`;
 

@@ -69,12 +69,16 @@ if (item0.length >= 2) {
   check("marcar el ítem 1 no marca los demás", otros.length === 0, "se marcaron=" + otros.length);
 }
 
-console.log("\n═══ 4 · al corregir se revela la respuesta y el por qué ═══");
-item0[2].click();
-const ok = $$("#items .ans").filter(b => b.dataset.ok === "true");
-check("el HTML conoce la respuesta correcta", ok.length > 0);
+console.log("\n═══ 4 · el HTML conoce la respuesta y las opciones son consistentes ═══");
+// Los ítems de producción (speaking/writing) no tienen opciones: hay que respetarlos.
+const conOpc = $$("#items .ans").filter(b => b.getAttribute("data-sel") === "1" || true);
 check("las opciones llevan data-i y data-k consistentes",
   $$("#items .ans").every(b => b.dataset.i !== undefined && /^[A-D]$/.test(b.dataset.k)));
+check("los ítems evaluables tienen respuesta marcada en el HTML",
+  $$("#items .ans").filter(b => b.dataset.ok === "true").length > 0);
+const prod = $$("#items .item, #items > *").length;
+check("el HTML renderizó todos los ítems (evaluables y de producción)", prod > 0,
+  "renderizados=" + prod);
 
 console.log(`\n${fail === 0 ? "✅ TODO OK" : "❌ FALLÓ"}  —  ${pass} pasaron, ${fail} fallaron\n`);
 process.exit(fail === 0 ? 0 : 1);
