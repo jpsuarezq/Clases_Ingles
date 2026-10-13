@@ -60,8 +60,11 @@ def validar_datos(path: Path, errors: list):
     if isinstance(dia, int) and semana != -(-dia // 7):
         err(errors, f"datos.md: 'semana' inconsistente — dia {dia} debería ser semana {-(-dia // 7)}, llegó {semana!r}")
 
-    if fm.get("habilidad") not in HABILIDADES:
-        err(errors, f"datos.md: 'habilidad' debe ser {sorted(HABILIDADES)}, llegó {fm.get('habilidad')!r}")
+    hab = fm.get("habilidad")
+    if hab is not None and hab not in HABILIDADES:
+        err(errors, f"datos.md: 'habilidad' debe ser {sorted(HABILIDADES)}, llegó {hab!r}")
+    if hab is None and fm.get("mock") is None:
+        err(errors, "datos.md: 'habilidad' null solo es válido en un día de mock — el EF SET de cierre es las cuatro habilidades (#13)")
 
     if fm.get("mock") is not None and fm.get("mock") not in (1, 2, 3):
         err(errors, f"datos.md: 'mock' debe ser 1|2|3|null, llegó {fm.get('mock')!r}")

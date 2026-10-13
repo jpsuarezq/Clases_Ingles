@@ -33,7 +33,7 @@ Carpeta por día, **solo el número, nunca fecha** — el plan es secuencia, no 
 | --- | --- | --- |
 | `dia` | int 1–90 | El número de la carpeta. |
 | `semana` | int 1–13 | `ceil(dia / 7)`. |
-| `habilidad` | `listening \| reading \| writing \| speaking` | El bloque rotante del día. `_14` |
+| `habilidad` | `listening \| reading \| writing \| speaking` \| `null` | El bloque rotante del día. `_14` Rotación `L → W → S → R` fija, a partes iguales. `_13` **`null` solo el día 90**: el EF SET de cierre cubre las **cuatro** habilidades en 90 minutos, no es un día de rotación. |
 | `drill` | slug | El drill semanal de sección. `_13` |
 | `mock` | int 1–3 \| `null` | **Solo** semanas 4, 10 y 13. `_13` |
 
