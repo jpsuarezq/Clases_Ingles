@@ -96,6 +96,21 @@ check("día 1: contraste acento-lexico", f1["contraste"] == "acento-lexico")
 check("día 1: etapa explicacion", f1["etapa"] == "explicacion")
 check("día 1: ELSA no va", f1["elsa"] is False)
 
+print("\n── la vista de 90 días tiene que sobrevivir al None del día 90 ──")
+import contextlib
+import io
+
+buf = io.StringIO()
+try:
+    with contextlib.redirect_stdout(buf):
+        C.main()
+    out = buf.getvalue()
+    check("main() imprime los 90 días sin crashear", out.count("\n") == 92,
+          f"{out.count(chr(10))} líneas")
+    check("el día 90 se muestra como 'las 4'", "— las 4 —" in out)
+except Exception as e:  # noqa: BLE001
+    check("main() imprime los 90 días sin crashear", False, repr(e))
+
 print(f"\n{'Todas las invariantes se cumplen' if not fallas else str(len(fallas)) + ' FALLAS'}")
 for f in fallas:
     print(f"  · {f}")

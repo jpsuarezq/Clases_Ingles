@@ -108,8 +108,8 @@ def main():
     print(f"{'día':>3} {'sem':>3} {'habilidad':<10} {'bloque':>6} {'contraste':<24} {'etapa':<14} mock")
     print("─" * 88)
     for d in range(1, 91):
-        f, m = fonema(d), mock(d)
-        print(f"{d:>3} {semana(d):>3} {habilidad(d):<10} {f['bloque']:>6} "
+        f, m, h = fonema(d), mock(d), habilidad(d)
+        print(f"{d:>3} {semana(d):>3} {(h or '— las 4 —'):<10} {f['bloque']:>6} "
               f"{f['contraste']:<24} {f['etapa']:<14} "
               f"{m['tipo'] if m else ''}")
     return 0
